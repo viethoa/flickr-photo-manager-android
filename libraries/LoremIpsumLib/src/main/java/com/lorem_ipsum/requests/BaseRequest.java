@@ -36,11 +36,8 @@ public class BaseRequest {
     public static final int DEVELOPMENT = 1;
     public static final int PRODUCTION = 2;
 
-    // TODO hardcode
-    private static final String BASIC_AUTH_USER_AND_PASS = "garlock:garl0ck";
-
-    private static final String DEVELOPMENT_SERVER = "http://garlock.originally.us";
-    private static final String PRODUCTION_SERVER = "https://garlock.originally.us";
+    private static final String DEVELOPMENT_SERVER = "https://by.originally.us/busbuzz";
+    private static final String PRODUCTION_SERVER = "https://by.originally.us/busbuzz";
 
     protected static final String GENERIC_URL = "/{url}";
     private static final String API_VERSION_STRING = "/v1";
@@ -172,14 +169,6 @@ public class BaseRequest {
             params = null;
         return params;
     }
-
-    private static String encodeCredentialsForBasicAuthorization() {
-        if (StringUtils.isNull(BASIC_AUTH_USER_AND_PASS)) {
-            return null;
-        }
-        return "Basic " + Base64.encodeToString(BASIC_AUTH_USER_AND_PASS.getBytes(), Base64.NO_WRAP);
-    }
-
     /**
      * Helper method to construct the authenticated headers
      */
