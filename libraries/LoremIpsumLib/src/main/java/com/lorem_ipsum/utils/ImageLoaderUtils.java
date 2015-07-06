@@ -43,7 +43,7 @@ public class ImageLoaderUtils {
         ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(context.getApplicationContext())
                 .threadPoolSize(4)
                 .memoryCache(new LRULimitedMemoryCache(3 * 1024 * 1024))
-                .diskCache(new LimitedAgeDiscCache(cacheDir, 3600 * 24 * 365 * 5))
+                .diskCache(new LimitedAgeDiscCache(cacheDir, 3600 * 24 * 7))
                 .diskCacheFileNameGenerator(new HashCodeFileNameGenerator())
                 .imageDownloader(new AuthImageDownloader(context.getApplicationContext()))
                 .defaultDisplayImageOptions(options)
@@ -58,7 +58,7 @@ public class ImageLoaderUtils {
                 .showImageOnLoading(placeHolderResource)
                 .showImageForEmptyUri(placeHolderResource)
                 .showImageOnFail(placeHolderResource)
-                        //.displayer(new FadeInBitmapDisplayer(200))
+                //.displayer(new FadeInBitmapDisplayer(200))
                 .cacheInMemory(true)
                 .cacheOnDisk(true)
                 .resetViewBeforeLoading(true)
@@ -87,13 +87,6 @@ public class ImageLoaderUtils {
     public static void displayImage(String imageUrl, ImageView imageView, int placeHolder) {
         DisplayImageOptions options = getDisplayImageOptions(placeHolder);
         ImageLoader.getInstance().displayImage(imageUrl, imageView, options);
-    }
-
-    public static void displayImageWithAbsolutePath(String absolutePath, ImageView imageView) {
-        if (!absolutePath.startsWith("file:///")) {
-            absolutePath = "file:///" + absolutePath;
-        }
-        ImageLoader.getInstance().displayImage(absolutePath, imageView);
     }
 
 }

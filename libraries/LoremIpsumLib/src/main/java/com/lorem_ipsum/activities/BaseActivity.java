@@ -1,19 +1,15 @@
 package com.lorem_ipsum.activities;
 
-import android.app.ActionBar;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.Typeface;
-import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Html;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -37,7 +33,6 @@ import com.lorem_ipsum.utils.ToastUtils;
 import java.lang.reflect.Type;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Locale;
 
 import retrofit.RetrofitError;
 
@@ -48,7 +43,6 @@ public class BaseActivity extends AppCompatActivity {
 
     protected final String LOG_TAG = this.getClass().getSimpleName();
 
-    protected ActionBar mActionBar;
     protected AQuery mAQuery = new AQuery(this);
 
     private Dialog mLoadingDialog;
@@ -59,7 +53,6 @@ public class BaseActivity extends AppCompatActivity {
 
         this.mLoadingDialog = DialogUtils.createCustomDialogLoading(this);
 
-        this.mActionBar = getActionBar();
         this.mAQuery = new AQuery(this);
     }
 
@@ -105,51 +98,6 @@ public class BaseActivity extends AppCompatActivity {
     protected void initializeCritercism(String critercismAppId) {
         if (critercismAppId != null && critercismAppId.length() > 5)
             Crittercism.initialize(getApplicationContext(), critercismAppId);
-    }
-
-
-    //----------------------------------------------------------------------------------------------------------
-    // Action Bar
-    //----------------------------------------------------------------------------------------------------------
-
-    protected void setupCustomActionBar() {
-        ActionBar actionBar = getActionBar();
-        if (actionBar == null)
-            return;
-
-        actionBar.setDisplayShowHomeEnabled(false);
-        actionBar.setDisplayHomeAsUpEnabled(false);
-        actionBar.setDisplayShowTitleEnabled(false);
-        actionBar.setDisplayShowCustomEnabled(true);
-    }
-
-    protected void setupCustomActionBar(String title, int bg_color_res_id, int text_color_res_id) {
-        setupCustomActionBar(title, bg_color_res_id, text_color_res_id, true);
-    }
-
-    protected void setupCustomActionBar(String title, int bg_color_res_id, int text_color_res_id, boolean showHome) {
-        ActionBar actionBar = getActionBar();
-        if (actionBar == null)
-            return;
-
-        actionBar.setDisplayHomeAsUpEnabled(showHome);
-        actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(bg_color_res_id)));
-        actionBar.setIcon(new ColorDrawable(getResources().getColor(android.R.color.transparent)));
-
-        //Awesome way to set text color, works with all flavors of ActionBar
-        int actionBarTitleColor = getResources().getColor(text_color_res_id);
-        String htmlColor = String.format(Locale.US, "#%06X", (0xFFFFFF & Color.argb(0, Color.red(actionBarTitleColor), Color.green(actionBarTitleColor), Color.blue(actionBarTitleColor))));
-        actionBar.setTitle(Html.fromHtml("<font color=\"" + htmlColor + "\">" + title + "</font>"));
-    }
-
-    protected void hideHomeButtonInActionBar() {
-        ActionBar actionBar = getActionBar();
-        if (actionBar == null)
-            return;
-
-        actionBar.setHomeButtonEnabled(false);          // disable the button
-        actionBar.setDisplayHomeAsUpEnabled(false);     // remove the left caret
-        actionBar.setDisplayShowHomeEnabled(false);     // remove the icon
     }
 
 
@@ -211,11 +159,11 @@ public class BaseActivity extends AppCompatActivity {
     protected void showLoadingDialog() {
         if (mLoadingDialog != null && !mLoadingDialog.isShowing()) {
             mLoadingDialog.show();
-            AnimationUtils.AnimationWheelForDialog(mLoadingDialog.findViewById(R.id.loading_progress_wheel_view_container));
+            AnimationUtils.AnimationWheelForDialog(this, mLoadingDialog.findViewById(R.id.loading_progress_wheel_view_container));
         }
     }
 
-    protected boolean isShowingLoadingDialog() {
+    protected boolean isShowLoadingDialog() {
         if (mLoadingDialog == null)
             return false;
         return mLoadingDialog.isShowing();

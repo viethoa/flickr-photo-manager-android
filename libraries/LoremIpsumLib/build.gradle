@@ -36,9 +36,6 @@ dependencies {
     compile 'com.googlecode.android-query:android-query:+'
     compile 'com.squareup.retrofit:retrofit:1.9.0'
     compile "com.google.android.gms:play-services:3.1.+"
-    compile ('com.pnikosis:materialish-progress:1.2') {
-        exclude module: 'appcompat-v7'
-    }
 
     //Try to use online version of the library as much as possible
     compile fileTree(dir: 'libs', include: ['*.jar'])

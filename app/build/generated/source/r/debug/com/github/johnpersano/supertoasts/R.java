@@ -11,7 +11,7 @@ public final class R {
 		public static final int black = 0x7f0b0012;
 		public static final int dark_gray = 0x7f0b0025;
 		public static final int light_gray = 0x7f0b0031;
-		public static final int white = 0x7f0b005d;
+		public static final int white = 0x7f0b005e;
 	}
 	public static final class dimen {
 		public static final int buttontoast_hover = 0x7f070044;
@@ -36,50 +36,50 @@ public final class R {
 		public static final int background_standard_purple = 0x7f020048;
 		public static final int background_standard_red = 0x7f020049;
 		public static final int background_standard_white = 0x7f02004a;
-		public static final int icon_dark_edit = 0x7f020074;
-		public static final int icon_dark_exit = 0x7f020075;
-		public static final int icon_dark_info = 0x7f020076;
-		public static final int icon_dark_redo = 0x7f020077;
-		public static final int icon_dark_refresh = 0x7f020078;
-		public static final int icon_dark_save = 0x7f020079;
-		public static final int icon_dark_share = 0x7f02007a;
-		public static final int icon_dark_undo = 0x7f02007b;
-		public static final int icon_light_edit = 0x7f02007c;
-		public static final int icon_light_exit = 0x7f02007d;
-		public static final int icon_light_info = 0x7f02007e;
-		public static final int icon_light_redo = 0x7f02007f;
-		public static final int icon_light_refresh = 0x7f020080;
-		public static final int icon_light_save = 0x7f020081;
-		public static final int icon_light_share = 0x7f020082;
-		public static final int icon_light_undo = 0x7f020083;
-		public static final int selector_kitkat_square_undobutton = 0x7f020087;
-		public static final int selector_kitkat_undobutton = 0x7f020088;
-		public static final int selector_undobutton = 0x7f020089;
-		public static final int shape_kitkat_square_undobarfocused = 0x7f02008a;
-		public static final int shape_kitkat_square_undobarselected = 0x7f02008b;
-		public static final int shape_kitkat_undobarfocused = 0x7f02008c;
-		public static final int shape_kitkat_undobarselected = 0x7f02008d;
-		public static final int shape_undobarfocused = 0x7f02008e;
-		public static final int shape_undobarselected = 0x7f02008f;
+		public static final int icon_dark_edit = 0x7f020076;
+		public static final int icon_dark_exit = 0x7f020077;
+		public static final int icon_dark_info = 0x7f020078;
+		public static final int icon_dark_redo = 0x7f020079;
+		public static final int icon_dark_refresh = 0x7f02007a;
+		public static final int icon_dark_save = 0x7f02007b;
+		public static final int icon_dark_share = 0x7f02007c;
+		public static final int icon_dark_undo = 0x7f02007d;
+		public static final int icon_light_edit = 0x7f02007e;
+		public static final int icon_light_exit = 0x7f02007f;
+		public static final int icon_light_info = 0x7f020080;
+		public static final int icon_light_redo = 0x7f020081;
+		public static final int icon_light_refresh = 0x7f020082;
+		public static final int icon_light_save = 0x7f020083;
+		public static final int icon_light_share = 0x7f020084;
+		public static final int icon_light_undo = 0x7f020085;
+		public static final int selector_kitkat_square_undobutton = 0x7f02008b;
+		public static final int selector_kitkat_undobutton = 0x7f02008c;
+		public static final int selector_undobutton = 0x7f02008d;
+		public static final int shape_kitkat_square_undobarfocused = 0x7f02008e;
+		public static final int shape_kitkat_square_undobarselected = 0x7f02008f;
+		public static final int shape_kitkat_undobarfocused = 0x7f020090;
+		public static final int shape_kitkat_undobarselected = 0x7f020091;
+		public static final int shape_undobarfocused = 0x7f020092;
+		public static final int shape_undobarselected = 0x7f020093;
 	}
 	public static final class id {
-		public static final int button = 0x7f0c0076;
-		public static final int card_container = 0x7f0c0062;
-		public static final int divider = 0x7f0c0075;
-		public static final int message_textview = 0x7f0c0074;
-		public static final int progress_bar = 0x7f0c0077;
-		public static final int root_layout = 0x7f0c0073;
+		public static final int button = 0x7f0c007a;
+		public static final int card_container = 0x7f0c0063;
+		public static final int divider = 0x7f0c0079;
+		public static final int message_textview = 0x7f0c0078;
+		public static final int progress_bar = 0x7f0c007b;
+		public static final int root_layout = 0x7f0c0077;
 	}
 	public static final class layout {
-		public static final int dummy_layout = 0x7f040022;
-		public static final int superactivitytoast_button = 0x7f040032;
-		public static final int superactivitytoast_progresscircle = 0x7f040033;
-		public static final int superactivitytoast_progresshorizontal = 0x7f040034;
-		public static final int supercardtoast = 0x7f040035;
-		public static final int supercardtoast_button = 0x7f040036;
-		public static final int supercardtoast_progresscircle = 0x7f040037;
-		public static final int supercardtoast_progresshorizontal = 0x7f040038;
-		public static final int supertoast = 0x7f040039;
+		public static final int dummy_layout = 0x7f040023;
+		public static final int superactivitytoast_button = 0x7f040034;
+		public static final int superactivitytoast_progresscircle = 0x7f040035;
+		public static final int superactivitytoast_progresshorizontal = 0x7f040036;
+		public static final int supercardtoast = 0x7f040037;
+		public static final int supercardtoast_button = 0x7f040038;
+		public static final int supercardtoast_progresscircle = 0x7f040039;
+		public static final int supercardtoast_progresshorizontal = 0x7f04003a;
+		public static final int supertoast = 0x7f04003b;
 	}
 	public static final class style {
 		public static final int DefaultRootLayout = 0x7f08002e;

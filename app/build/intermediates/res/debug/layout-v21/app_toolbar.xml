@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    style="@style/app_custom_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:background="@color/app_primary_color"
+    android:elevation="0dp"
+    android:minHeight="@dimen/toolbar_height"
+    android:theme="@android:style/ThemeOverlay.Material.Light"
+    app:contentInsetLeft="@dimen/empty_space"
+    app:contentInsetStart="@dimen/empty_space">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/empty_space">
+
+        <!--<ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_logo"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/medium_space"
+            android:layout_marginRight="@dimen/medium_space"
+            android:layout_marginStart="@dimen/medium_space"
+            android:layout_marginEnd="@dimen/medium_space"/>  android:layout_toRightOf="@id/iv_logo"-->
+
+        <TextView
+            style="@style/app_text_view_bright_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/medium_space"
+            android:paddingTop="@dimen/medium_space"
+            android:text="Title"
+            android:textColor="@color/text_color_bright"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/src/main/res/layout-v21/app_toolbar.xml -->

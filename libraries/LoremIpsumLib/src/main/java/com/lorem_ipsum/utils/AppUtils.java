@@ -1,18 +1,22 @@
 package com.lorem_ipsum.utils;
 
-import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.Bundle;
 import android.os.Environment;
 import android.util.Base64;
 import android.util.Log;
+
+import com.lorem_ipsum.managers.NetworkStateReceiver;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -30,15 +34,24 @@ import java.util.Date;
  * android:name="com.lorem_ipsum.utils.AppUtils"
  * ...
  */
-public class AppUtils extends Application {
+public class AppUtils extends Application implements NetworkStateReceiver.NetworkStateReceiverListener {
+
+    private static SimpleDateFormat formatter = new SimpleDateFormat("E MMM d yyyy hh:mm a", java.util.Locale.getDefault());
+    private static final String TAG = "AppUtils";
 
     private static Context appContext;
-    private static final String TAG = "AppUtils";
-    private static SimpleDateFormat formatter = new SimpleDateFormat("E MMM d yyyy hh:mm a", java.util.Locale.getDefault());
+    private static boolean appState;
+
+    private static boolean networkState;
+    public static NetworkListener networkListener;
+    private NetworkStateReceiver networkStateReceiver;
 
     public void onCreate() {
         super.onCreate();
         AppUtils.appContext = getApplicationContext();
+        AppUtils.networkState = isOnline(appContext);
+
+        initialiseNetworkManagement();
 
         //Print out package name for debug purpose
         String packageName = "Package name: " + getAppPackageName();
@@ -51,6 +64,76 @@ public class AppUtils extends Application {
         return appContext;
     }
 
+    /**
+     * Using for detect application status
+     * Note: need set instance is false in onCreate and true in startActivity
+     */
+    public static void setAppState(boolean bool) {
+        appState = bool;
+    }
+
+    public static boolean getAppState() {
+        return appState;
+    }
+
+    public static Bundle getBundleMetaData() {
+        try {
+            ApplicationInfo ai = appContext.getPackageManager().getApplicationInfo(
+                    appContext.getPackageName(),
+                    PackageManager.GET_META_DATA);
+
+            Bundle bundle = ai.metaData;
+            if (bundle == null) {
+                ToastUtils.showErrorMessageWithSuperToast("don't get bundle meta data", TAG);
+                return null;
+            }
+
+            return bundle;
+        } catch (PackageManager.NameNotFoundException e) {
+            ToastUtils.showErrorMessageWithSuperToast(e.getMessage(), TAG);
+        }
+
+        return null;
+    }
+
+    /**
+     * Initialise network management
+     * <p/>
+     * That's handle will be return network status for changed.
+     * Note: you need register network listener in your activity
+     */
+    public interface NetworkListener {
+        void networkAvailable();
+
+        void networkUnavailable();
+    }
+
+    private void initialiseNetworkManagement() {
+        networkStateReceiver = new NetworkStateReceiver();
+        networkStateReceiver.addListener(this);
+        IntentFilter intentFilter = new IntentFilter(android.net.ConnectivityManager.CONNECTIVITY_ACTION);
+        this.registerReceiver(networkStateReceiver, intentFilter);
+    }
+
+    public static boolean getNetworkState() {
+        return networkState;
+    }
+
+    @Override
+    public void networkAvailable() {
+        networkState = true;
+        if (networkListener != null) {
+            networkListener.networkAvailable();
+        }
+    }
+
+    @Override
+    public void networkUnavailable() {
+        networkState = false;
+        if (networkListener != null) {
+            networkListener.networkUnavailable();
+        }
+    }
 
     /**
      * Return the app version name, eg. 1.2
@@ -114,8 +197,8 @@ public class AppUtils extends Application {
     /**
      * Check current network hardware states, note: doesn't handle proxy being unavailable
      */
-    public static boolean isOnline() {
-        ConnectivityManager cm = (ConnectivityManager) getAppContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+    public static boolean isOnline(Context context) {
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         return netInfo != null && netInfo.isConnectedOrConnecting();
     }
@@ -268,16 +351,6 @@ public class AppUtils extends Application {
             return false;
         Intent intent = getAppContext().getPackageManager().getLaunchIntentForPackage(packageName);
         return intent != null;
-    }
-
-    public static boolean isServiceRunning(Class<?> serviceClass) {
-        ActivityManager manager = (ActivityManager) getAppContext().getSystemService(Context.ACTIVITY_SERVICE);
-        for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
-            if (serviceClass.getName().equals(service.service.getClassName())) {
-                return true;
-            }
-        }
-        return false;
     }
 
 

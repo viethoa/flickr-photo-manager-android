@@ -5,57 +5,8 @@
         jar="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="bbb951b7086ac8390a5df7e8b409b4e43a0e6f76">
+        sha1="b3a1eae3d55fd87517c48188b629ea6579768ac6">
         <dex dex="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-698c9db31efe9e057dd7fa12533d220e6a09efde.jar" />
-    </item>
-    <item
-        jar="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/libs/javawriter-2.5.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="81241ff7078ef14f42ea2a8995fa09c096256e6b">
-        <dex dex="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/pre-dexed/debug/javawriter-2.5.0-8ce7a18d2857ec26b49d51282465d473e0c5a83f.jar" />
-    </item>
-    <item
-        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.googlecode.android-query/android-query/0.25.9/fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f/android-query-0.25.9.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f">
-        <dex dex="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/pre-dexed/debug/android-query-0.25.9-c55ef954e2b45d8da244e19d9f7997da0b10bf1e.jar" />
-    </item>
-    <item
-        jar="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/libs/javax.inject-1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/pre-dexed/debug/javax.inject-1-2a3a822c9dde7f07d843e267195374d3e0a49784.jar" />
-    </item>
-    <item
-        jar="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/CustomDialog/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b4985216b1d6a29d05e02b586330214fd32b128f">
-        <dex dex="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-0e2930cfb20d5cfb4f257231bf0523ad8c646c59.jar" />
-    </item>
-    <item
-        jar="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/libs/dagger-compiler-1.2.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57">
-        <dex dex="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/pre-dexed/debug/dagger-compiler-1.2.2-4f4124f3bf7664f79fdaae38eff535c6139311a9.jar" />
-    </item>
-    <item
-        jar="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/libs/dagger-1.2.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e8f912ee19ad84958510883ea191135276b091f8">
-        <dex dex="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/pre-dexed/debug/dagger-1.2.2-e6a63d27631eac3b807ad1fa32c7c364e742b7cf.jar" />
-    </item>
-    <item
-        jar="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/show-case-view/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f4308bed5fb5faeb4370b22b72191ea494412ed3">
-        <dex dex="/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-58ec4ca76fc067280dfe39f7054d9f6d00077be0.jar" />
     </item>
 
 </items>

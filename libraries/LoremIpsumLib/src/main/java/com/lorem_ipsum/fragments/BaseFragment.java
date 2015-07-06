@@ -179,8 +179,17 @@ public class BaseFragment extends Fragment {
     protected void showLoadingDialog() {
         if (mLoadingDialog != null && !mLoadingDialog.isShowing()) {
             mLoadingDialog.show();
-            AnimationUtils.AnimationWheelForDialog(mLoadingDialog.findViewById(R.id.loading_progress_wheel_view_container));
+
+            View progressbarContainer = mLoadingDialog.findViewById(R.id.loading_progress_wheel_view_container);
+            AnimationUtils.AnimationWheelForDialog(getActivity(), progressbarContainer);
         }
+    }
+
+    protected boolean isShowLoadingDialog() {
+        if (mLoadingDialog == null)
+            return false;
+
+        return mLoadingDialog.isShowing();
     }
 
     /**

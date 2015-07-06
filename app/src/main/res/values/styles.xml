@@ -7,11 +7,20 @@
         <item name="android:windowBackground">@color/text_color_bright</item>
     </style>
 
-    <style name="Base.AppTheme" parent="Theme.AppCompat.Light">
+    <style name="Base.AppTheme" parent="Theme.AppCompat">
         <item name="colorPrimary">@color/app_primary_color</item>
         <item name="colorPrimaryDark">@color/app_primary_color_dark</item>
         <item name="colorAccent">@color/app_primary_color_dark</item>
-        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/app_primary_color</item>
+        <item name="colorPrimaryDark">@color/app_primary_color_dark</item>
+        <item name="colorAccent">@color/app_primary_color_dark</item>
+        <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="textAllCaps">false</item>
     </style>

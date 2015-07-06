@@ -2,6 +2,8 @@ package com.lorem_ipsum.utils;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.content.res.TypedArray;
 import android.graphics.Point;
 import android.net.ConnectivityManager;
@@ -94,5 +96,17 @@ public class DeviceUtils {
         }
 
         return id;
+    }
+
+    public static Number getDeviceVersionCode(Context context) {
+        PackageInfo pInfo = null;
+        try {
+            pInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), 0);
+            return pInfo.versionCode;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        return null;
     }
 }

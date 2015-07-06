@@ -3,52 +3,46 @@ package com.lorem_ipsum.models;
 import com.lorem_ipsum.utils.StringUtils;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * Created by originally.us on 5/10/14.
  */
 public class User implements Serializable {
 
-    /*
-    "id": 13,
-    "email": "i@weikiat.net",
-    "last_login_timestamp": 1420267814,
-    "created_timestamp": 0,
-    "secret": null,
-    "secret_expiry_timestamp": 0,
-    "reset_password": null,
-    "verified_account": 0,
-    "device_token": null,
-    "banned": null,
-    "modified_timestamp": 0,
-    "display_name": "User"
-    */
 
-    public int id;
+//    "id":13,
+//    "email":"",
+//    "last_login_timestamp":1429848485,
+//    "created_timestamp":1429848485,
+//    "secret":"52a39820798e7b92e27faceed51a2ffbb960f142",
+//    "secret_expiry_timestamp":1429855685,
+//    "reset_password":null,
+//    "verified_account":null,
+//    "device_token":"1_1234",
+//    "banned":null,
+//    "modified_timestamp":1429848485,
+//    "first_name":null,
+//    "last_name":null,
+//    "display_name":"User"
+
+    public Number id;
     public String email;
-    public long last_login_timestamp;
-    public long created_timestamp;
+    public Date last_login_timestamp;
+    public Date created_timestamp;
     public String secret;
-    public long secret_expiry_timestamp;
-    public int reset_password;
-    public int verified_account;
+    public Date secret_expiry_timestamp;
+    public String reset_password;
+    public String verified_account;
     public String device_token;
-    public int banned;
-    public long modified_timestamp;
+    public String banned;
+    public Date modified_timestamp;
+    public String first_name;
+    public String last_name;
     public String display_name;
 
-    public String getDisplayName() {
-        if (StringUtils.isNotNull(display_name)) {
-            return display_name;
-        }
-        return email;
-    }
-
     public boolean isVerified() {
-        if (StringUtils.isNull(secret)) {
-            return false;
-        }
-        return true;
+        return StringUtils.isNotNull(secret);
     }
 
 }

@@ -1,13 +1,12 @@
 package com.lorem_ipsum.requests;
 
 import android.content.Context;
-import android.util.Base64;
+import android.os.Build;
 
 import com.google.gson.JsonElement;
 import com.lorem_ipsum.managers.UserSessionDataManager;
 import com.lorem_ipsum.utils.AppUtils;
 import com.lorem_ipsum.utils.RetrofitUtils;
-import com.lorem_ipsum.utils.StringUtils;
 
 import java.lang.reflect.Type;
 import java.util.HashMap;
@@ -16,15 +15,16 @@ import java.util.Map;
 import retrofit.Callback;
 import retrofit.RequestInterceptor;
 import retrofit.RestAdapter;
-import retrofit.client.Response;
 import retrofit.http.Body;
 import retrofit.http.DELETE;
 import retrofit.http.EncodedPath;
 import retrofit.http.GET;
+import retrofit.http.Multipart;
 import retrofit.http.POST;
 import retrofit.http.PUT;
+import retrofit.http.Part;
 import retrofit.http.QueryMap;
-import retrofit.http.Streaming;
+import retrofit.mime.TypedFile;
 
 /**
  * @author Originally.US
@@ -36,7 +36,7 @@ public class BaseRequest {
     public static final int DEVELOPMENT = 1;
     public static final int PRODUCTION = 2;
 
-    private static final String DEVELOPMENT_SERVER = "https://by.originally.us/busbuzz";
+    private static final String DEVELOPMENT_SERVER = "http://by.originally.us/busbuzz";
     private static final String PRODUCTION_SERVER = "https://by.originally.us/busbuzz";
 
     protected static final String GENERIC_URL = "/{url}";
@@ -60,7 +60,6 @@ public class BaseRequest {
         }
         return builder.toString();
     }
-
 
     // Request interface
     protected interface BaseRequestInterface {
@@ -92,28 +91,12 @@ public class BaseRequest {
                 @QueryMap Map<String, Object> params,
                 Callback<JsonElement> callback);
 
-
-        //********************* Stream *********************
-
-        @GET(GENERIC_URL)
-        @Streaming
-        void getStream(
-                @EncodedPath("url") String url,
-                @QueryMap Map<String, Object> params,
-                Callback<Response> callback);
-
+        @Multipart
         @POST(GENERIC_URL)
-        @Streaming
-        void postStream(
+        void postMediaUpload(
                 @EncodedPath("url") String url,
-                @Body Map<String, Object> params,
-                Callback<Response> callback);
-
-        @POST(GENERIC_URL)
-        @Streaming
-        Response postStreamSynchronous(
-                @EncodedPath("url") String url,
-                @Body Map<String, Object> params);
+                @Part("document") TypedFile photo,
+                Callback<JsonElement> callback);
     }
 
     /**
@@ -141,6 +124,8 @@ public class BaseRequest {
         HashMap<String, Object> params = new HashMap<>();
         params.put("os", "android");
         params.put("ver", AppUtils.getAppVersionName());
+        params.put("os_type", 2);
+        params.put("os_version", Build.VERSION.SDK_INT);
         return params;
     }
 
@@ -158,17 +143,12 @@ public class BaseRequest {
         if (userId != null)
             params.put("userid", "" + userId);
 
-        // TODO re-check: Basic Auth for debug
-//        String basicAuth = encodeCredentialsForBasicAuthorization();
-//        if (basicAuth != null) {
-//            params.put("Authorization", basicAuth);
-//        }
-
         //Return null if there is no parameters
         if (params.size() <= 0)
             params = null;
         return params;
     }
+
     /**
      * Helper method to construct the authenticated headers
      */
@@ -256,39 +236,15 @@ public class BaseRequest {
     }
 
     /**
-     * Convenient function to perform a HTTP GET with byte streaming
+     * Convenient function to perform a HTTP GET
      */
-    protected static void GET_STREAM(String url, HashMap<String, Object> params, Callback<Response> myCallback) {
-        HashMap<String, Object> finalParams = getStandardParameters();
-        if (params != null && params.size() > 0)
-            finalParams.putAll(params);
+    protected static void POST_MEDIA(final Context context, final String url, TypedFile image, final Type theType, String dataWrapperElement, final MyDataCallback myCallback) {
+        String functionName = Thread.currentThread().getStackTrace()[3].getMethodName();
+
+        Callback<JsonElement> theCallback = JsonHelper.callbackJsonElement(context, myCallback, theType, dataWrapperElement, LOG_TAG, functionName);
 
         BaseRequestInterface requestInterface = getBaseRequestInterface(url);
-        requestInterface.getStream(url, finalParams, myCallback);
-    }
-
-    /**
-     * Convenient function to perform a HTTP POST with byte streaming
-     */
-    protected static void POST_STREAM(String url, HashMap<String, Object> params, Callback<Response> myCallback) {
-        HashMap<String, Object> finalParams = getStandardParameters();
-        if (params != null && params.size() > 0)
-            finalParams.putAll(params);
-
-        BaseRequestInterface requestInterface = getBaseRequestInterface(url);
-        requestInterface.postStream(url, finalParams, myCallback);
-    }
-
-    /**
-     * Convenient function to perform a HTTP POST with byte streaming
-     */
-    protected static Response POST_STREAM_SYNCHRONOUS(String url, HashMap<String, Object> params) {
-        HashMap<String, Object> finalParams = getStandardParameters();
-        if (params != null && params.size() > 0)
-            finalParams.putAll(params);
-
-        BaseRequestInterface requestInterface = getBaseRequestInterface(url);
-        return requestInterface.postStreamSynchronous(url, finalParams);
+        requestInterface.postMediaUpload(url, image, theCallback);
     }
 
 }

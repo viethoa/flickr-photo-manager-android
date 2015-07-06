@@ -128,20 +128,17 @@ public final class RetrofitUtils {
     }
 
     public static String getStringError(RetrofitError retrofitError) {
+        if (retrofitError == null || retrofitError.getResponse() == null)
+            return "";
+
         StringBuilder builder = new StringBuilder();
         builder.append(" Request failure: [MESSAGE ");
-
-        if (retrofitError != null && retrofitError.getResponse() != null) {
-            builder.append(retrofitError.getMessage());
-            builder.append("] [STATUS ");
-            builder.append(retrofitError.getResponse().getStatus());
-            builder.append("] [REASON ");
-            builder.append(retrofitError.getResponse().getReason());
-            builder.append("]");
-        } else if (retrofitError != null) {
-            builder.append(retrofitError.getMessage());
-        }
-
+        builder.append(retrofitError.getMessage());
+        builder.append("] [STATUS ");
+        builder.append(retrofitError.getResponse().getStatus());
+        builder.append("] [REASON ");
+        builder.append(retrofitError.getResponse().getReason());
+        builder.append("]");
         return builder.toString();
     }
 
@@ -330,7 +327,7 @@ public final class RetrofitUtils {
         if (authError) {
             UserSessionDataManager.clearAllSavedUserData();
             CredentialManager.clearAllSavedUserData();
-            String myClass = "us.originally.garlock.controllers.CheckEmailActivity";
+            String myClass = "mydelivery.shippin.com.mydelivery.controllers.registration.LandingActivity";
             Class<?> clazz;
             try {
                 clazz = Class.forName(myClass);
@@ -366,18 +363,13 @@ public final class RetrofitUtils {
             SuperActivityToast.create(activity, message, SuperToast.Duration.SHORT, Style.getStyle(Style.RED, SuperToast.Animations.POPUP)).show();
 
         //Logcat
-        Log.e(LOG_TAG, "Status Code: " + statusCode);
         Log.e(LOG_TAG, message);
         AppUtils.writeToLogFile(LOG_TAG, message);
 
         if (retrofitError != null) {
             Log.e(LOG_TAG, retrofitError.getUrl());
             AppUtils.writeToLogFile(LOG_TAG, retrofitError.getUrl());
-            String localizedMessage = retrofitError.getLocalizedMessage();
-            if (localizedMessage != null) {
-                Log.e(LOG_TAG, localizedMessage);
-                AppUtils.writeToLogFile(LOG_TAG, localizedMessage);
-            }
+            AppUtils.writeToLogFile(LOG_TAG, retrofitError.getLocalizedMessage());
         }
 
         return statusCode;

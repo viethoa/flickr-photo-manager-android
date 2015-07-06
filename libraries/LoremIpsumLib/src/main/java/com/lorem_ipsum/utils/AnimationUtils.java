@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.view.View;
 import android.view.animation.Animation;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.lorem_ipsum.R;
@@ -14,7 +15,6 @@ import com.nineoldandroids.animation.AnimatorSet;
 import com.nineoldandroids.animation.ArgbEvaluator;
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.animation.ValueAnimator;
-import com.pnikosis.materialishprogress.ProgressWheel;
 
 
 public class AnimationUtils {
@@ -283,17 +283,15 @@ public class AnimationUtils {
         v.startAnimation(scaleAndFadeAnimation);
     }
 
-    public static void AnimationWheelForDialog(View viewContainer) {
+    public static void AnimationWheelForDialog(Context context, View viewContainer) {
         if (viewContainer == null)
             return;
 
+        Animation rotation = android.view.animation.AnimationUtils.loadAnimation(context, R.anim.loading_animate);
+        ImageView imgLoading = (ImageView) viewContainer.findViewById(R.id.iv_loading);
         viewContainer.setVisibility(View.VISIBLE);
-        ProgressWheel mProgressWheel = (ProgressWheel) viewContainer.findViewById(R.id.ProgressWheel);
-        if (mProgressWheel == null)
-            return;
-
-        mProgressWheel.spin();
-        mProgressWheel.setVisibility(View.VISIBLE);
+        imgLoading.startAnimation(rotation);
+        rotation.setDuration(800);
     }
 
     public static void parallelScaleAnimationForDialog(View viewContainer) {

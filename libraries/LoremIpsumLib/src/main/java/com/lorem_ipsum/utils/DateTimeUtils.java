@@ -390,4 +390,11 @@ public final class DateTimeUtils {
         intent.putExtra("title", prefill);
         activity.startActivity(intent);
     }
+
+    public static Date getDate(long milliSeconds) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(milliSeconds);
+
+        return calendar.getTime();
+    }
 }

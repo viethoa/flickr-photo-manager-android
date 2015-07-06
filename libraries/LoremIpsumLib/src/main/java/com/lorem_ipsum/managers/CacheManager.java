@@ -18,7 +18,7 @@ public class CacheManager {
     private static final String SHARED_PREF_CACHE_DATA = "SHARED_PREF_CACHE_DATA";
     private static final String KEY_CREATED_TIMESTAMP = "_created_at";
 
-    private static SharedPreferences getSharedPreferences() {
+    public static SharedPreferences getSharedPreferences() {
         //Make sure each logged in user has their own cache sandbox
         Number currentUserId = UserSessionDataManager.getCurrentUserID();
         if (currentUserId == null)
@@ -87,6 +87,36 @@ public class CacheManager {
 
         final ArrayList<T> finalObject = (ArrayList<T>)object;
         return finalObject;
+    }
+
+    //*************************************************************************
+    // String
+    //*************************************************************************
+
+    public static void saveStringCacheData(final String key, String data) {
+        if (key == null || data == null)
+            return;
+
+        SharedPreferences settings = getSharedPreferences();
+        if (settings == null)
+            return;
+        SharedPreferences.Editor editor = settings.edit();
+        if (editor == null)
+            return;
+
+        editor.putString(key, data);
+        editor.apply();
+    }
+
+    public static String getStringCacheData(String key) {
+        if (key == null)
+            return null;
+
+        SharedPreferences settings = getSharedPreferences();
+        if (settings == null)
+            return null;
+
+        return settings.getString(key, null);
     }
 
     //*************************************************************************
