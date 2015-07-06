@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/CustomDialog/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="app_green_color">#43A047</color>
+    <color name="app_orange_color">#ffef9c01</color>
+    <color name="app_primary_color">#F44336</color>
+    <color name="app_primary_color_dark">#c31c13</color>
+    <color name="app_transparent_color">#00ffffff</color>
+    <color name="dialog_bg_color">#fffbfbfb</color>
+    <color name="dialog_bg_content">@color/text_color_light</color>
+    <color name="tabs_scroll_color">#B71C1C</color>
+    <color name="text_color_black">#FF333333</color>
+    <color name="text_color_bright">#FFFFFFFF</color>
+    <color name="text_color_dark">#FF555555</color>
+    <color name="text_color_gray">#FF777777</color>
+    <color name="text_color_hint">#ffb7b7b7</color>
+    <color name="text_color_light">#FF999999</color>
+    <!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/CustomDialog/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="empty_space">0dp</dimen>
+    <dimen name="font_large">18dp</dimen>
+    <dimen name="font_medium">15dp</dimen>
+    <dimen name="font_no_data_view">16dp</dimen>
+    <dimen name="font_small">12dp</dimen>
+    <dimen name="font_x_large">24dp</dimen>
+    <dimen name="large_space">15dp</dimen>
+    <dimen name="line_space">1px</dimen>
+    <dimen name="medium_space">10dp</dimen>
+    <dimen name="small_space">5dp</dimen>
+    <dimen name="xlarge_space">20dp</dimen>
+    <dimen name="xxlarge_space">25dp</dimen>
+    <!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/CustomDialog/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="DialogAnimationSlideDown">
+        <item name="android:windowEnterAnimation">@anim/slide_down</item>
+        <item name="android:windowExitAnimation">@anim/out_down</item>
+    </style>
+    <style name="DialogAnimationSlideUp">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/out_up</item>
+    </style>
+    <style name="SimpleDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="app_custom_toolbar">
+        <item name="android:textColorPrimary">@color/app_primary_color</item>
+    </style>
+    <style name="app_setting_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="dialog_button_negative">
+        <item name="android:textColor">@color/app_primary_color</item>
+        <item name="android:background">@drawable/dialog_button_negative</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="dialog_button_positive">
+        <item name="android:textColor">@color/app_primary_color</item>
+        <item name="android:background">@drawable/dialog_button_positive</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="dialog_title">
+        <item name="android:textColor">@color/app_primary_color</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/dialog_content_bg</item>
+        <item name="android:padding">@dimen/large_space</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

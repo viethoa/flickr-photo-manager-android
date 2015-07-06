@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading_progress_wheel_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+    <!-- make sure this progress id is "@+id/ProgressWheel" for BaseActivity to use -->
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/ProgressWheel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        wheel:barColor="@color/loremipsum_primary_orange"
+        wheel:progressIndeterminate="true" />
+
+</RelativeLayout><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/LoremIpsumLib/src/main/res/layout/dialog_progress_wheel.xml --><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/layout/dialog_progress_wheel.xml -->

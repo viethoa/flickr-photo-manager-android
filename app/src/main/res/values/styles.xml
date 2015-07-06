@@ -1,8 +1,120 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Base.AppTheme"></style>
+
+    <style name="Application_Theme" parent="Base.AppTheme">
+        <item name="android:windowBackground">@color/text_color_bright</item>
     </style>
 
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/app_primary_color</item>
+        <item name="colorPrimaryDark">@color/app_primary_color_dark</item>
+        <item name="colorAccent">@color/app_primary_color_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- Toolbar style-->
+    <style name="app_custom_toolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/app_primary_color</item>
+    </style>
+
+    <!-- Show case style-->
+    <style name="app_show_case_style" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#99000000</item>
+        <item name="sv_showcaseColor">#000000</item>
+        <item name="sv_buttonText">Got It</item>
+        <item name="sv_tintButtonColor">false</item>
+        <item name="sv_detailTextAppearance">@style/show_case_text_white</item>
+    </style>
+
+    <style name="show_case_text_white" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- No data view style -->
+    <style name="app_no_data_view_style">
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textSize">@dimen/font_no_data_view</item>
+        <item name="android:layout_marginTop">@dimen/no_data_view_margin</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!-- App text view style -->
+    <style name="app_text_view_black_medium">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="app_text_view_black_small">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="app_text_view_black_large">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="app_text_view_gray_medium">
+        <item name="android:textColor">@color/text_color_gray</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="app_text_view_gray_large">
+        <item name="android:textColor">@color/text_color_gray</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="app_text_view_dark_medium">
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="app_text_view_dark_medium_depressed">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="app_text_view_dark_small">
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="app_text_view_dark_large">
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="app_text_view_light_medium">
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="app_text_view_light_small">
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="app_text_view_bright_large">
+        <item name="android:textColor">@color/text_color_bright</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="app_text_view_bright_medium">
+        <item name="android:textColor">@color/text_color_bright</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="app_text_view_bright_small">
+        <item name="android:textColor">@color/text_color_bright</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="app_text_view_light_large">
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
 </resources>

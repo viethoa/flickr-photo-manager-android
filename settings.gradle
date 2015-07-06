@@ -1,2 +1,4 @@
 include ':app'
+include ':libraries:show-case-view'
 include ':libraries:LoremIpsumLib'
+include ':libraries:CustomDialog'
