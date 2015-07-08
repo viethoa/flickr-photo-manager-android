@@ -22,4 +22,4 @@
         android:visibility="gone"
         android:background="@drawable/bg_badge_circle_blue_with_alpha" />
 
-</RelativeLayout><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/LoremIpsumLib/src/main/res/layout/indicator_loading_blue.xml --><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/res/layout/indicator_loading_blue.xml -->
+</RelativeLayout><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/layout/indicator_loading_blue.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/res/layout/indicator_loading_blue.xml -->

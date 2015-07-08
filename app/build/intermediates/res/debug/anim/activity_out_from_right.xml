@@ -5,4 +5,4 @@
         android:toXDelta="100%p"
         android:duration="250"
     />
-</set><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/LoremIpsumLib/src/main/res/anim/activity_out_from_right.xml --><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/res/anim/activity_out_from_right.xml -->
+</set><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/anim/activity_out_from_right.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/res/anim/activity_out_from_right.xml -->

@@ -19,4 +19,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/btn_cling_pressed"/>
     <item android:drawable="@drawable/btn_cling_normal"/>
 </selector>
-<!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/show-case-view/src/main/res/drawable/cling_button_bg.xml --><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/show-case-view/unspecified/res/drawable/cling_button_bg.xml -->
+<!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/show-case-view/src/main/res/drawable/cling_button_bg.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/show-case-view/unspecified/res/drawable/cling_button_bg.xml -->

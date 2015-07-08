@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate android:fromYDelta="100%" android:toYDelta="0%" android:duration="500" />
-</set><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/LoremIpsumLib/src/main/res/anim/slide_up.xml -->
+</set><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/anim/slide_up.xml -->

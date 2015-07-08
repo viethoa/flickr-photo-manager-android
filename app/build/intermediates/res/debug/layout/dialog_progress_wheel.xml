@@ -22,4 +22,4 @@
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/empty_string"/>
 
-</RelativeLayout><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/LoremIpsumLib/src/main/res/layout/dialog_progress_wheel.xml --><!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/res/layout/dialog_progress_wheel.xml -->
+</RelativeLayout><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/layout/dialog_progress_wheel.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/res/layout/dialog_progress_wheel.xml -->

@@ -9,7 +9,18 @@ public class MainActivity extends MDLBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setContentView(R.layout.activity_main);
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        initialiseData();
+        initialiseUI();
     }
+
+    protected void initialiseData() {
+    }
+
+    protected void initialiseUI() {
+
+    }
+
 }

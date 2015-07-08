@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/CustomDialog/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/CustomDialog/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="app_green_color">#43A047</color>
     <color name="app_orange_color">#ffef9c01</color>
@@ -16,7 +16,7 @@
     <color name="text_color_gray">#FF777777</color>
     <color name="text_color_hint">#ffb7b7b7</color>
     <color name="text_color_light">#FF999999</color>
-    <!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/CustomDialog/src/main/res/values/dimen.xml -->
+    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/CustomDialog/src/main/res/values/dimen.xml -->
     <eat-comment/>
     <dimen name="empty_space">0dp</dimen>
     <dimen name="font_large">18dp</dimen>
@@ -30,7 +30,7 @@
     <dimen name="small_space">5dp</dimen>
     <dimen name="xlarge_space">20dp</dimen>
     <dimen name="xxlarge_space">25dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/AndroidStudioProjects/Originally/SGParkWhere/libraries/CustomDialog/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/CustomDialog/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->
