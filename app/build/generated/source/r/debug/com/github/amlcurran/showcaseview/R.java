@@ -22,11 +22,11 @@ public final class R {
 	}
 	public static final class dimen {
 		public static final int action_bar_offset = 0x7f070042;
-		public static final int button_margin = 0x7f070043;
-		public static final int showcase_radius = 0x7f070055;
-		public static final int showcase_radius_inner = 0x7f070056;
-		public static final int showcase_radius_outer = 0x7f070057;
-		public static final int text_padding = 0x7f070059;
+		public static final int button_margin = 0x7f070044;
+		public static final int showcase_radius = 0x7f070058;
+		public static final int showcase_radius_inner = 0x7f070059;
+		public static final int showcase_radius_outer = 0x7f07005a;
+		public static final int text_padding = 0x7f07005c;
 	}
 	public static final class drawable {
 		public static final int btn_cling_normal = 0x7f020050;
@@ -44,20 +44,20 @@ public final class R {
 		public static final int showcase_title_text = 0x7f0c0009;
 	}
 	public static final class layout {
-		public static final int handy = 0x7f040024;
-		public static final int showcase_button = 0x7f040033;
+		public static final int handy = 0x7f040027;
+		public static final int showcase_button = 0x7f040036;
 	}
 	public static final class string {
 		public static final int ok = 0x7f060030;
 	}
 	public static final class style {
-		public static final int ShowcaseButton = 0x7f0800b7;
-		public static final int ShowcaseView = 0x7f0800b8;
-		public static final int ShowcaseView_Light = 0x7f0800b9;
-		public static final int TextAppearance_ShowcaseView_Detail = 0x7f0800e5;
-		public static final int TextAppearance_ShowcaseView_Detail_Light = 0x7f0800e6;
-		public static final int TextAppearance_ShowcaseView_Title = 0x7f0800e7;
-		public static final int TextAppearance_ShowcaseView_Title_Light = 0x7f0800e8;
+		public static final int ShowcaseButton = 0x7f0800b6;
+		public static final int ShowcaseView = 0x7f0800b7;
+		public static final int ShowcaseView_Light = 0x7f0800b8;
+		public static final int TextAppearance_ShowcaseView_Detail = 0x7f0800e4;
+		public static final int TextAppearance_ShowcaseView_Detail_Light = 0x7f0800e5;
+		public static final int TextAppearance_ShowcaseView_Title = 0x7f0800e6;
+		public static final int TextAppearance_ShowcaseView_Title_Light = 0x7f0800e7;
 	}
 	public static final class styleable {
 		public static final int[] CustomTheme = { 0x7f010025 };

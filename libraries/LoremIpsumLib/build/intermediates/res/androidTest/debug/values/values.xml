@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -19,19 +19,19 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <color name="app_primary_color">#F44336</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="black">#000000</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -41,7 +41,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/colors.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -53,10 +53,10 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="dark_gray">#333333</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -66,14 +66,14 @@
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="light_gray">#AFFFFFFF</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <color name="loremipsum_blue_alpha">#880073CD</color>
     <color name="loremipsum_orange_alpha">#AAFF5B39</color>
@@ -87,7 +87,7 @@
     <color name="loremipsum_primary_white">#FFFFFF</color>
     <color name="loremipsum_progress_color">#00000000</color>
     <color name="loremipsum_white_alpha">#88FFFFFF</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
@@ -112,7 +112,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="white">#FFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
@@ -142,7 +142,7 @@
     <declare-styleable name="TypefaceTextView"><attr format="string" name="customTypeface"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -204,12 +204,12 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="buttontoast_hover">24dp</dimen>
     <dimen name="buttontoast_x_padding">12dp</dimen>
     <dimen name="cardtoast_margin">4dp</dimen>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -220,10 +220,10 @@
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="toast_hover">64dp</dimen>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -257,10 +257,10 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <string name="app_name">LoremIpsumLib</string>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/strings.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/strings.xml -->
     <eat-comment/>
     <string name="auth_client_needs_enabling_title">
       An application requires Google Play Services to be enabled.
@@ -291,11 +291,11 @@
     <string msgid="1788179980625863495" name="common_google_play_services_update_title">Update Google Play services</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <string name="empty_string"/>
     <string name="session_expired_error_string">Session expired. Please login again.</string>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -1216,7 +1216,7 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <style name="CustomDialog" parent="android:Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -1230,7 +1230,7 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <style name="DefaultRootLayout">
         <item name="android:background">@drawable/background_standard_gray</item>
@@ -1245,7 +1245,7 @@
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
     </style>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1388,7 +1388,7 @@
     <style name="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation">
         <item name="android:paddingLeft">@dimen/abc_action_bar_navigation_padding_start_material</item>
     </style>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <style name="SuperActivityToast_Button_Button">
         <item name="android:background">@drawable/selector_undobutton</item>
@@ -1434,7 +1434,7 @@
     <style name="SuperCardToast_Button_RootLayout" parent="DefaultRootLayout">
         <item name="android:background">@drawable/selector_undobutton</item>
     </style>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>

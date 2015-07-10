@@ -2,165 +2,165 @@
 <items version="2" >
 
     <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2dd7b1a9ea65bb03d9cd16df777eeaf537a1fc81">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-05becf511cd3328067904b27f13b8072c47a658e.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-f508afa1957c2dd573f86fb7637a3916c2455041.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/classes-443078b345b4ffb0fb0800633e8d2c17b0dd25ed.jar" />
     </item>
     <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/libs/otto-1.3.5.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7941cd2c2c8ec006800d75c35f8a9dacf892ab93">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/otto-1.3.5-4312ef6bd1bff72e666ea8bd625282689d18d166.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/libs/javawriter-2.5.0.jar"
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/libs/javawriter-2.5.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="81241ff7078ef14f42ea2a8995fa09c096256e6b">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/javawriter-2.5.0-88325f6f9439c0a01c8f80df2f241b8b66d0d325.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/javawriter-2.5.0-9eab8efc729f1d9dab53bacf49308a681a8f81c4.jar" />
     </item>
     <item
-        jar="/Users/nguyetquoi/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.2/9e025bc5b84968e7d6ac765e660a70b3e5a87432/universal-image-loader-1.9.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e025bc5b84968e7d6ac765e660a70b3e5a87432">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-0a2a92d2a15f8b8f449888f0129a0be6ffbdc35a.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2e58dce1ec89cd4706295d355aaf920aee3d91c5">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-8881ec1318cd7711503100ca5f48de0cef2a7dc0.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-bc409b469deaf7a317c98c5149db5b203ae46267.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/.gradle/caches/modules-2/files-2.1/com.crittercism/crittercism-android-agent/5.3.1-rc-1/30d0531310b1a48b062258e22958c9696abfa36e/crittercism-android-agent-5.3.1-rc-1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="30d0531310b1a48b062258e22958c9696abfa36e">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/crittercism-android-agent-5.3.1-rc-1-376eca6e403b2928a15a9bb919e6b02a3e86d172.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="be2c4f0bf03cde4f82397752cb803bfc47142a7b">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-4691834b0ba8481792186deef13b2cd65840a886.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-d5eae7a2ab6ee8e6b98537be48c2ef8dda79f106.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a681c044244d9fc375198588297a39ba78028423">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-60b9f921e59ffc67279f7f5209c4464bddd55d31.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/.gradle/caches/modules-2/files-2.1/com.googlecode.android-query/android-query/0.25.9/fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f/android-query-0.25.9.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/android-query-0.25.9-76b0ad5b5a40a0a7fe7c482bc2cc3a36b1818477.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/okio-1.2.0-56a82e4f4c128e7d21e30c8f957f05afa22873ad.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/show-case-view/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9b5fecc0e45db96a8886b536340560fa053af1a5">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-bba9a863858f9e9929e0dae33d29b27f810630b4.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/libs/dagger-1.2.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e8f912ee19ad84958510883ea191135276b091f8">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/dagger-1.2.2-9cf48ae7e882cf23e70321f7b087732586014a64.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/libs/javax.inject-1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/javax.inject-1-5e7abe891b8f9ff6b22086766d83308a12a52120.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-07e5c425780301598bd66b90b2da0a169c6fb525.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/CustomDialog/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7cf7751582e5547ecd2acddf9b011de09a88804b">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-959cd8600d9d0a25e4e6100f11009c1ab27c34d4.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ed86dca8cc365dce95839b927b92cd9021e4c678.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/library-2.4.0-800d29f3654b585b7c8ecf51ba9aee5c1fb5f9ed.jar" />
-    </item>
-    <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/libs/dagger-compiler-1.2.2.jar"
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/libs/dagger-compiler-1.2.2.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/dagger-compiler-1.2.2-a9e6a7c661eeaa29190c25d720faefbdeb6d8c6c.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/dagger-compiler-1.2.2-5b68985c9d730dce2167344bab42e02476440ed2.jar" />
     </item>
     <item
-        jar="/Users/nguyetquoi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
+        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/gson-2.3.1-cad49fef85ee0d0e9f277ad5d59acb1597791609.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2dd7b1a9ea65bb03d9cd16df777eeaf537a1fc81">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/classes-c3262b5669238bf4d38fcae6e5a6d77dbe767825.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="959c454243581fdf730abfd4f4745441724bcf2c">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/okhttp-2.2.0-a9089ed81b3afb9d5487baa8477549d5f505d6cb.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/okhttp-2.2.0-9872b4b1e0dd78bb79d82f8cf221edcc248389fd.jar" />
     </item>
     <item
-        jar="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/show-case-view/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e49b6975a5f40add9aa422b134990180269f4b1">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/classes-1c71f7e2d28852e748fe2b0f3defd69d5c4e146f.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/okio-1.2.0-177bea39b0bbe22f055a3e7292ac07092be72725.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.2/9e025bc5b84968e7d6ac765e660a70b3e5a87432/universal-image-loader-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e025bc5b84968e7d6ac765e660a70b3e5a87432">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-2b4ba155af960d1fdf5da5db069cbbde651e4345.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/libs/dagger-1.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/dagger-1.2.2-75f49d03d9abee04f37a375b639e5ea194cfd78a.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/libs/javax.inject-1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/javax.inject-1-1d1da4e164067438ef6ad145a51e5a62a1a7f60b.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/CustomDialog/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="440230066b38aca5f53c87336822e3460eec5c07">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/classes-41603836f4da917c2ea3b88074c54652ffea3680.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-c1a93093e24bb10cd2a11b1e80f027aa3716d3ff.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/library-2.4.0-5ebfa645f983074a359e16cab8d7e0f245414068.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e58dce1ec89cd4706295d355aaf920aee3d91c5">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/classes-125a4d7b0ba47bdaac290407fb3cadf6f81c5555.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.crittercism/crittercism-android-agent/5.3.1-rc-1/30d0531310b1a48b062258e22958c9696abfa36e/crittercism-android-agent-5.3.1-rc-1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="30d0531310b1a48b062258e22958c9696abfa36e">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/crittercism-android-agent-5.3.1-rc-1-243eeb594ee5b7cd489f1833a6b9c3d04cc9132b.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/libs/otto-1.3.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7941cd2c2c8ec006800d75c35f8a9dacf892ab93">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/otto-1.3.5-b754e885c443b05e66a2225986024b725ab52ec4.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-638ad65b0a5cf590978fdb2ec80aa69949a45263.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/pre-dexed/debug/classes-157034e1ca6933e0768c68f0de100dc3373862a3.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/classes-39e86b19ddd4edc7cc9ad8294991eaab18aa69a3.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-3adbe92ca266bed066c6a25d16f48a2d4f9f4d62.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-a7f2733dd4a0258147e828fd5c26cdb75d1d36eb.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.googlecode.android-query/android-query/0.25.9/fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f/android-query-0.25.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/android-query-0.25.9-c55ef954e2b45d8da244e19d9f7997da0b10bf1e.jar" />
+    </item>
+    <item
+        jar="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/LoremIpsumLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2ceeae24d3dfc349bfc1ad5594e2726b02c7b375">
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/pre-dexed/debug/classes-78dfdea940e9bf9d2aed76331deec394cb4a3214.jar" />
     </item>
 
 </items>

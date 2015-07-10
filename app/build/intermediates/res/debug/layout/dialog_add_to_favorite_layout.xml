@@ -40,4 +40,4 @@
             android:layout_height="wrap_content"
             android:text="Ok"/>
     </LinearLayout>
-</LinearLayout><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/CustomDialog/src/main/res/layout/dialog_add_to_favorite_layout.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/CustomDialog/unspecified/res/layout/dialog_add_to_favorite_layout.xml -->
+</LinearLayout><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/CustomDialog/src/main/res/layout/dialog_add_to_favorite_layout.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/CustomDialog/unspecified/res/layout/dialog_add_to_favorite_layout.xml -->

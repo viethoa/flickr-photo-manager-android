@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/SGParkWhere/libraries/LoremIpsumLib/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="app_primary_color">#F44336</color>
     <color name="loremipsum_blue_alpha">#880073CD</color>
@@ -16,12 +16,12 @@
     <color name="loremipsum_progress_color">#00000000</color>
     <color name="loremipsum_white_alpha">#88FFFFFF</color>
     <declare-styleable name="TypefaceTextView"><attr format="string" name="customTypeface"/></declare-styleable>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/SGParkWhere/libraries/LoremIpsumLib/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">LoremIpsumLib</string>
     <string name="empty_string"/>
     <string name="session_expired_error_string">Session expired. Please login again.</string>
-    <!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/SGParkWhere/libraries/LoremIpsumLib/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="CustomDialog" parent="android:Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>

@@ -18,4 +18,4 @@
 <Button xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ShowcaseButton"
     android:text="@android:string/ok"
-    android:id="@id/showcase_button" /><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/show-case-view/src/main/res/layout/showcase_button.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/show-case-view/build/intermediates/bundles/debug/res/layout/showcase_button.xml -->
+    android:id="@id/showcase_button" /><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/show-case-view/src/main/res/layout/showcase_button.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/show-case-view/build/intermediates/bundles/debug/res/layout/showcase_button.xml -->

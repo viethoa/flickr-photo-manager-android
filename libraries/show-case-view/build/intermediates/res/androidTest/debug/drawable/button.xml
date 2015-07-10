@@ -17,4 +17,4 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/button_normal" />
-</selector><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/show-case-view/src/main/res/drawable/button.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/show-case-view/build/intermediates/bundles/debug/res/drawable/button.xml -->
+</selector><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/show-case-view/src/main/res/drawable/button.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/show-case-view/build/intermediates/bundles/debug/res/drawable/button.xml -->

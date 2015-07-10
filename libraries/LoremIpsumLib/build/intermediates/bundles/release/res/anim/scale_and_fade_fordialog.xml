@@ -21,4 +21,4 @@
         android:toYScale="1.0"
         android:repeatMode="restart"
         android:repeatCount="infinite"/>
-</set><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/anim/scale_and_fade_fordialog.xml -->
+</set><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/src/main/res/anim/scale_and_fade_fordialog.xml -->

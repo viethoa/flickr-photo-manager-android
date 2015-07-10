@@ -13,4 +13,4 @@
                 android:color="@color/dialog_bg_content" />
         </shape>
     </item>
-</layer-list><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/CustomDialog/src/main/res/drawable/dialog_button_negative.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/CustomDialog/unspecified/res/drawable/dialog_button_negative.xml -->
+</layer-list><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/CustomDialog/src/main/res/drawable/dialog_button_negative.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/CustomDialog/unspecified/res/drawable/dialog_button_negative.xml -->

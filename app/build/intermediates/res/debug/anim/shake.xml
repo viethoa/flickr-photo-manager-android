@@ -2,4 +2,4 @@
     android:duration="500"
     android:fromXDelta="0"
     android:interpolator="@anim/cycle_7"
-    android:toXDelta="10" /><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/anim/shake.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/res/anim/shake.xml -->
+    android:toXDelta="10" /><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/src/main/res/anim/shake.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/LoremIpsumLib/unspecified/res/anim/shake.xml -->

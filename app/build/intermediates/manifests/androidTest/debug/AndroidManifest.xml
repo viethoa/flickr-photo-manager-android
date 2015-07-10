@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="us.originally.sgparkwhere.test">
+    package="com.originally.shape.test">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="us.originally.sgparkwhere"
+                     android:targetPackage="com.originally.shape"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for us.originally.sgparkwhere"/>
+                     android:label="Tests for com.originally.shape"/>
 </manifest>

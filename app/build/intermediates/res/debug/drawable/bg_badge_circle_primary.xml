@@ -2,4 +2,4 @@
     android:shape="oval">
     <solid
         android:color="@color/app_primary_color"/>
-</shape><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/drawable/bg_badge_circle_primary.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/res/drawable/bg_badge_circle_primary.xml -->
+</shape><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/src/main/res/drawable/bg_badge_circle_primary.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/LoremIpsumLib/unspecified/res/drawable/bg_badge_circle_primary.xml -->

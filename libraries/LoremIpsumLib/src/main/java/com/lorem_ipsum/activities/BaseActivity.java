@@ -1,7 +1,6 @@
 package com.lorem_ipsum.activities;
 
 import android.app.Dialog;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.net.Uri;
@@ -11,27 +10,18 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.WindowManager;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
 import com.androidquery.AQuery;
 import com.crittercism.app.Crittercism;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.internal.Primitives;
 import com.lorem_ipsum.R;
 import com.lorem_ipsum.requests.MyDataCallback;
 import com.lorem_ipsum.utils.AnimationUtils;
-import com.lorem_ipsum.utils.CustomDateParser;
+import com.lorem_ipsum.utils.AppUtils;
 import com.lorem_ipsum.utils.DialogUtils;
 import com.lorem_ipsum.utils.RetrofitUtils;
 import com.lorem_ipsum.utils.ToastUtils;
 
-import java.lang.reflect.Type;
-import java.util.Date;
 import java.util.HashMap;
 
 import retrofit.RetrofitError;
@@ -42,9 +32,7 @@ import retrofit.RetrofitError;
 public class BaseActivity extends AppCompatActivity {
 
     protected final String LOG_TAG = this.getClass().getSimpleName();
-
     protected AQuery mAQuery = new AQuery(this);
-
     private Dialog mLoadingDialog;
 
     @Override
@@ -52,66 +40,46 @@ public class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         this.mLoadingDialog = DialogUtils.createCustomDialogLoading(this);
-
         this.mAQuery = new AQuery(this);
-    }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
+        initializeNetworkManager();
     }
 
     @Override
     protected void onPause() {
-
         dismissLoadingDialog();
         super.onPause();
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
-
-    // This code allow child Fragment to control the hardware Back button behavior
-    /*
-    @Override
-    public void onBackPressed() {
-        final BaseFragment fragment = (BaseFragment) getSupportFragmentManager().findFragmentByTag(LOG_TAG);
-
-        //Custom behavior from the Fragment implementation
-        Boolean canGoBack = true;
-        if (fragment != null)
-            canGoBack = fragment.allowBackPressed();
-
-        if (canGoBack)
-            super.onBackPressed();
-    }
-    */
-
-    protected void initializeCritercism(String critercismAppId) {
-        if (critercismAppId != null && critercismAppId.length() > 5)
-            Crittercism.initialize(getApplicationContext(), critercismAppId);
-    }
-
-
     //----------------------------------------------------------------------------------------------------------
-    // Activity life cycle helpers
+    // Network broadcast receiver
     //----------------------------------------------------------------------------------------------------------
 
-    //Override finish animation
-    @Override
-    public void finish() {
-        super.finish();
-//        if (mIsFinishWithAnimation)
-//            AnimationUtils.slideOutFromLeftZoom(this);
+    protected void initializeNetworkManager() {
+        AppUtils.networkListener = new AppUtils.NetworkListener() {
+            @Override
+            public void networkAvailable() {
+                onNetworkAvailable();
+            }
+
+            @Override
+            public void networkUnavailable() {
+                onNetworkUnavailable();
+            }
+        };
     }
+
+    public void onNetworkAvailable() {
+
+    }
+
+    public void onNetworkUnavailable() {
+        showToastErrorMessage("please check your internet connection");
+    }
+
+    //----------------------------------------------------------------------------------------------------------
+    // Animation start activity
+    //----------------------------------------------------------------------------------------------------------
 
     protected void startActivityWithAnimation(Intent intent) {
         startActivity(intent);
@@ -122,7 +90,6 @@ public class BaseActivity extends AppCompatActivity {
         startActivityForResult(intent, requestCode);
         AnimationUtils.slideInFromRightZoom(this);
     }
-
 
     //----------------------------------------------------------------------------------------------------------
     // UI Helpers
@@ -136,18 +103,6 @@ public class BaseActivity extends AppCompatActivity {
             view.setTypeface(Typeface.SANS_SERIF);
         }
     }
-
-    /**
-     * hide keyboard
-     */
-    protected void dismissKeyboard() {
-        if (this.getCurrentFocus() != null) {
-            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-            imm.hideSoftInputFromWindow(this.getCurrentFocus().getWindowToken(), 0);
-        }
-        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
-    }
-
 
     //----------------------------------------------------------------------------------------------------------
     // Loading UI Helpers
@@ -274,79 +229,6 @@ public class BaseActivity extends AppCompatActivity {
         intent.putExtra("url", url);
         this.startActivity(intent);
     }
-
-
-    //----------------------------------------------------------------------------------------------------------
-    // Show/Hide view within fade in/out animation
-    //----------------------------------------------------------------------------------------------------------
-
-    protected void showView(View view) {
-        showView(view, 200);
-    }
-
-    protected void hideView(View view) {
-        hideView(view, 200);
-    }
-
-    protected void showView(View view, int duration) {
-        AnimationUtils.fadeInViewWithDuration(view, duration, true, 0);
-    }
-
-    protected void hideView(View view, int duration) {
-        AnimationUtils.fadeOutViewWithDuration(view, duration, true, 0);
-    }
-
-
-    //----------------------------------------------------------------------------------------------------------
-    // Passing data between activities
-    //----------------------------------------------------------------------------------------------------------
-
-    protected Intent getIntentWithObjectAndKey(Object obj, String key) {
-        return getIntentWithObjectAndKey(null, obj, key);
-    }
-
-    protected Intent getIntentWithObjectAndKey(Class<?> activityClass, Object obj, String key) {
-        String modelString = getSerializedModelString(obj);
-
-        Intent intent;
-        if (activityClass == null)
-            intent = new Intent();
-        else
-            intent = new Intent(this, activityClass);
-        intent.putExtra(key, modelString);
-        return intent;
-    }
-
-    protected String getSerializedModelString(Object obj) {
-        GsonBuilder gsonBuilder = new GsonBuilder();
-        gsonBuilder.registerTypeAdapter(Date.class, new CustomDateParser());
-        Gson gson = gsonBuilder.create();
-        return gson.toJson(obj);
-    }
-
-    protected <T> T getSerializedModelFromIntent(String key, Class<T> classOfT) {
-        return getSerializedModelFromIntent(getIntent(), key, classOfT);
-    }
-
-    protected <T> T getSerializedModelFromIntent(Intent data, String key, Class<T> classOfT) {
-
-        if (data == null)
-            data = getIntent();
-        if (data == null)
-            return null;
-
-        String modelString = data.getStringExtra(key);
-        if (modelString == null || modelString.length() <= 0)
-            return null;
-
-        GsonBuilder gsonBuilder = new GsonBuilder();
-        gsonBuilder.registerTypeAdapter(Date.class, new CustomDateParser());
-        Gson gson = gsonBuilder.create();
-
-        Object object = gson.fromJson(modelString, (Type) classOfT);
-        return Primitives.wrap(classOfT).cast(object);
-    }
-
 
     //----------------------------------------------------------------------------------------------------------
     // Server API

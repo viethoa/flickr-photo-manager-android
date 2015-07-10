@@ -7,4 +7,4 @@
         android:fromXDelta="-100%p"
         android:toXDelta="0" />
 
-</set><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/anim/acitivity_in_from_left_to_right.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/app/build/intermediates/exploded-aar/SGParkWhere.libraries/LoremIpsumLib/unspecified/res/anim/acitivity_in_from_left_to_right.xml -->
+</set><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/src/main/res/anim/acitivity_in_from_left_to_right.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/LoremIpsumLib/unspecified/res/anim/acitivity_in_from_left_to_right.xml -->

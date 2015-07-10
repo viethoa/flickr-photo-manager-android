@@ -16,15 +16,6 @@
         <item name="textAllCaps">false</item>
     </style>
 
-    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat">
-        <item name="colorPrimary">@color/app_primary_color</item>
-        <item name="colorPrimaryDark">@color/app_primary_color_dark</item>
-        <item name="colorAccent">@color/app_primary_color_dark</item>
-        <item name="windowNoTitle">true</item>
-        <item name="windowActionBar">false</item>
-        <item name="textAllCaps">false</item>
-    </style>
-
     <!-- Toolbar style-->
     <style name="app_custom_toolbar" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:textColorPrimary">@color/app_primary_color</item>
@@ -51,6 +42,20 @@
         <item name="android:gravity">center</item>
     </style>
 
+    <!-- Search view -->
+    <style name="search_view" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/button_material_dark</item>
+        <item name="android:textColorHint">@color/text_color_hint</item>
+        <item name="android:background">@color/text_color_bright</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/medium_space</item>
+        <item name="android:paddingRight">@dimen/empty_space</item>
+        <item name="android:paddingTop">@dimen/search_padding</item>
+        <item name="android:paddingBottom">@dimen/search_padding</item>
+        <item name="android:textSize">@dimen/search_text_size</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:singleLine">true</item>
+    </style>
 
     <!-- App text view style -->
     <style name="app_text_view_black_medium">

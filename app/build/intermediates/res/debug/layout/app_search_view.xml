@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_close_search"
+        android:layout_width="@dimen/toolbar_height"
+        android:layout_height="@dimen/toolbar_height"
+        android:padding="@dimen/medium_space"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_back_gray"/>
+
+    <ImageView
+        android:id="@+id/iv_icon_search"
+        android:layout_width="@dimen/toolbar_height"
+        android:layout_height="@dimen/toolbar_height"
+        android:padding="@dimen/medium_space"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_search_blue"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+    <EditText
+        android:id="@+id/et_search_view"
+        android:layout_toRightOf="@id/iv_close_search"
+        android:layout_toLeftOf="@+id/iv_icon_search"
+        style="@style/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:hint="search something..."/>
+
+    <View
+        android:layout_below="@id/iv_close_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_space"
+        android:background="@color/text_color_light" />
+
+</RelativeLayout><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/layout/app_search_view.xml -->

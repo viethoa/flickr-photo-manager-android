@@ -7,4 +7,4 @@
         android:interpolator="@android:anim/accelerate_interpolator"
         android:toXDelta="0%p" />
 
-</set><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/CustomDialog/src/main/res/anim/slide_up.xml -->
+</set><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/SGParkWhere/libraries/CustomDialog/src/main/res/anim/slide_up.xml -->

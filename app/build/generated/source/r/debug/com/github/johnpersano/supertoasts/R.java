@@ -14,10 +14,10 @@ public final class R {
 		public static final int white = 0x7f0b005e;
 	}
 	public static final class dimen {
-		public static final int buttontoast_hover = 0x7f070044;
+		public static final int buttontoast_hover = 0x7f070045;
 		public static final int buttontoast_x_padding = 0x7f070010;
-		public static final int cardtoast_margin = 0x7f070045;
-		public static final int toast_hover = 0x7f07005a;
+		public static final int cardtoast_margin = 0x7f070046;
+		public static final int toast_hover = 0x7f07005d;
 	}
 	public static final class drawable {
 		public static final int background_kitkat_black = 0x7f02003b;
@@ -63,23 +63,23 @@ public final class R {
 		public static final int shape_undobarselected = 0x7f020093;
 	}
 	public static final class id {
-		public static final int button = 0x7f0c007a;
-		public static final int card_container = 0x7f0c0063;
-		public static final int divider = 0x7f0c0079;
-		public static final int message_textview = 0x7f0c0078;
-		public static final int progress_bar = 0x7f0c007b;
-		public static final int root_layout = 0x7f0c0077;
+		public static final int button = 0x7f0c0082;
+		public static final int card_container = 0x7f0c0068;
+		public static final int divider = 0x7f0c0081;
+		public static final int message_textview = 0x7f0c0080;
+		public static final int progress_bar = 0x7f0c0083;
+		public static final int root_layout = 0x7f0c007f;
 	}
 	public static final class layout {
-		public static final int dummy_layout = 0x7f040023;
-		public static final int superactivitytoast_button = 0x7f040034;
-		public static final int superactivitytoast_progresscircle = 0x7f040035;
-		public static final int superactivitytoast_progresshorizontal = 0x7f040036;
-		public static final int supercardtoast = 0x7f040037;
-		public static final int supercardtoast_button = 0x7f040038;
-		public static final int supercardtoast_progresscircle = 0x7f040039;
-		public static final int supercardtoast_progresshorizontal = 0x7f04003a;
-		public static final int supertoast = 0x7f04003b;
+		public static final int dummy_layout = 0x7f040026;
+		public static final int superactivitytoast_button = 0x7f040038;
+		public static final int superactivitytoast_progresscircle = 0x7f040039;
+		public static final int superactivitytoast_progresshorizontal = 0x7f04003a;
+		public static final int supercardtoast = 0x7f04003b;
+		public static final int supercardtoast_button = 0x7f04003c;
+		public static final int supercardtoast_progresscircle = 0x7f04003d;
+		public static final int supercardtoast_progresshorizontal = 0x7f04003e;
+		public static final int supertoast = 0x7f04003f;
 	}
 	public static final class style {
 		public static final int DefaultRootLayout = 0x7f08002e;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">SG ParkWhere</string>
+    <string name="app_name">ShapeProject</string>
 
     <!-- Localytics (per app) -->
     <string name="localytics_key">5ec41f10d3f5183738afee8-7b83258e-a052-11e4-aaa3-009c5fda0a25</string>

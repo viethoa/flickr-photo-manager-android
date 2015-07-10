@@ -21,4 +21,4 @@
         android:visibility="gone"
         android:background="@drawable/bg_badge_circle_white_with_alpha" />
 
-</RelativeLayout><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/LoremIpsumLib/src/main/res/layout/indicator_loading_white.xml -->
+</RelativeLayout><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/SGParkWhere/libraries/LoremIpsumLib/src/main/res/layout/indicator_loading_white.xml -->

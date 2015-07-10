@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".countroll.modules.SearchView.SearchViewActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.originally.shape.countroll.modules.SearchView.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/layout/activity_search_view.xml -->

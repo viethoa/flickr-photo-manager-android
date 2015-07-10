@@ -19,4 +19,4 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-        android:src="@drawable/hand" /><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/show-case-view/src/main/res/layout/handy.xml --><!-- From: file:/Users/nguyetquoi/Work/AndroidStudioProject/SGParkWhere/libraries/show-case-view/build/intermediates/bundles/debug/res/layout/handy.xml -->
+        android:src="@drawable/hand" /><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/show-case-view/src/main/res/layout/handy.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/show-case-view/build/intermediates/bundles/debug/res/layout/handy.xml -->
