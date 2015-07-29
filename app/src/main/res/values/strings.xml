@@ -1,5 +1,7 @@
 <resources>
-    <string name="hello_world">Hello world!</string>
+    <!-- default -->
+    <string name="empty_string"></string>
+
     <string name="action_settings">Settings</string>
     <string name="title_activity_sliding_tabs_color">SlidingTabsColorActivity</string>
     <string name="title_activity_search_view">SearchViewActivity</string>

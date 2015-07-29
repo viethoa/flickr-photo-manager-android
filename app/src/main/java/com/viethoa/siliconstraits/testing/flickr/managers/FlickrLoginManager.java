@@ -3,8 +3,8 @@ package com.viethoa.siliconstraits.testing.flickr.managers;
 import com.googlecode.flickrjandroid.oauth.OAuth;
 import com.googlecode.flickrjandroid.oauth.OAuthToken;
 import com.googlecode.flickrjandroid.people.User;
-import com.lorem_ipsum.managers.CacheManager;
-import com.lorem_ipsum.utils.StringUtils;
+import com.viethoa.siliconstraits.testing.managers.CacheManager;
+import com.viethoa.siliconstraits.testing.utils.StringUtils;
 
 /**
  * Created by VietHoa on 27/07/15.

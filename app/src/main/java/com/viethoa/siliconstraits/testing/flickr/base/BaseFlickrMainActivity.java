@@ -5,9 +5,9 @@ import android.net.Uri;
 import com.googlecode.flickrjandroid.oauth.OAuth;
 import com.googlecode.flickrjandroid.photos.Photo;
 import com.googlecode.flickrjandroid.photos.PhotoList;
-import com.viethoa.siliconstraits.testing.controllers.base.MDLBaseActivity;
-import com.viethoa.siliconstraits.testing.flickr.managers.FlickrManager;
+import com.viethoa.siliconstraits.testing.controllers.base.BaseActivity;
 import com.viethoa.siliconstraits.testing.flickr.managers.FlickrLoginManager;
+import com.viethoa.siliconstraits.testing.flickr.managers.FlickrManager;
 import com.viethoa.siliconstraits.testing.flickr.tasks.UploadPhotoTask;
 import com.viethoa.siliconstraits.testing.models.FlickrPhoto;
 
@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * Created by VietHoa on 28/07/15.
  */
-public abstract class BaseFlickrMainActivity extends MDLBaseActivity implements
+public abstract class BaseFlickrMainActivity extends BaseActivity implements
         UploadPhotoTask.onUploadDone {
 
     /**

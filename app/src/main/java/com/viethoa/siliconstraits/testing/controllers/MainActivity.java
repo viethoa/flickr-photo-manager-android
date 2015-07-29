@@ -15,12 +15,12 @@ import android.view.View;
 
 import com.google.gson.reflect.TypeToken;
 import com.googlecode.flickrjandroid.photos.Photo;
-import com.lorem_ipsum.managers.CacheManager;
 import com.viethoa.siliconstraits.testing.R;
 import com.viethoa.siliconstraits.testing.adapters.PhotosAdapter;
 import com.viethoa.siliconstraits.testing.flickr.base.BaseFlickrMainActivity;
 import com.viethoa.siliconstraits.testing.flickr.managers.FlickrLoginManager;
 import com.viethoa.siliconstraits.testing.images.loader.ImageLoader;
+import com.viethoa.siliconstraits.testing.managers.CacheManager;
 import com.viethoa.siliconstraits.testing.models.FlickrPhoto;
 
 import java.lang.reflect.Type;

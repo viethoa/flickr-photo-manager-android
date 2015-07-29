@@ -2,4 +2,4 @@
     android:shape="oval">
     <solid
         android:color="@color/app_primary_color"/>
-</shape><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/src/main/res/drawable/bg_badge_circle_primary.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/res/drawable/bg_badge_circle_primary.xml -->
+</shape><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/drawable/bg_badge_circle_primary.xml -->

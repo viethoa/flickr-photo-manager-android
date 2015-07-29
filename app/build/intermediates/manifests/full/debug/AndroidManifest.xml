@@ -77,10 +77,6 @@
             android:name="com.viethoa.siliconstraits.testing.controllers.PhotoViewerActivity"
             android:theme="@style/AppTheme.Fullscreen" >
         </activity>
-        <activity
-            android:name="com.lorem_ipsum.activities.BaseWebviewActivity"
-            android:screenOrientation="sensorPortrait" >
-        </activity>
     </application>
 
 </manifest>

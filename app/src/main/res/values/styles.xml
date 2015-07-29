@@ -3,16 +3,14 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Base.AppTheme"></style>
 
+    <style name="AppTheme.Fullscreen" parent="Base.AppTheme"></style>
+
     <style name="Application_Theme" parent="Base.AppTheme">
         <item name="android:windowBackground">@color/text_color_bright</item>
     </style>
 
     <style name="ThemeBright" parent="Base.AppTheme">
         <item name="android:windowBackground">@color/app_effect_color_light</item>
-    </style>
-
-    <style name="AppTheme.Fullscreen" parent="Base.AppTheme">
-
     </style>
 
     <style name="Base.AppTheme" parent="Theme.AppCompat">
@@ -41,6 +39,20 @@
         <item name="android:textColorPrimary">@color/app_primary_color</item>
         <item name="android:textColor">@color/app_primary_color</item>
         <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- Custom dialog -->
+    <style name="CustomDialogLoading" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 
     <!-- No data view style -->

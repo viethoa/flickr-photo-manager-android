@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.viethoa.siliconstraits.testing.R;
 import com.viethoa.siliconstraits.testing.adapters.ImageViewerAdapter;
-import com.viethoa.siliconstraits.testing.controllers.base.MDLBaseActivity;
+import com.viethoa.siliconstraits.testing.controllers.base.BaseActivity;
 import com.viethoa.siliconstraits.testing.images.loader.ImageLoader;
 import com.viethoa.siliconstraits.testing.models.FlickrPhoto;
 import com.viethoa.siliconstraits.testing.view.ui.ImageViewerViewpager;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import butterknife.InjectView;
 import butterknife.OnClick;
 
-public class PhotoViewerActivity extends MDLBaseActivity {
+public class PhotoViewerActivity extends BaseActivity {
 
     private static final String EXTRACT_DATA = "data-extract";
     private static final String EXTRACT_POSITION = "position-extract";

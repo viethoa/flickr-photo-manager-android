@@ -8,9 +8,9 @@ import butterknife.ButterKnife.Injector;
 public class PhotoViewerActivity$$ViewInjector<T extends com.viethoa.siliconstraits.testing.controllers.PhotoViewerActivity> implements Injector<T> {
   @Override public void inject(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131689574, "field 'viewpager'");
-    target.viewpager = finder.castView(view, 2131689574, "field 'viewpager'");
-    view = finder.findRequiredView(source, 2131689575, "field 'ivBackIcon' and method 'onBackIconClicked'");
+    view = finder.findRequiredView(source, 2131689566, "field 'viewpager'");
+    target.viewpager = finder.castView(view, 2131689566, "field 'viewpager'");
+    view = finder.findRequiredView(source, 2131689567, "field 'ivBackIcon' and method 'onBackIconClicked'");
     target.ivBackIcon = view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {

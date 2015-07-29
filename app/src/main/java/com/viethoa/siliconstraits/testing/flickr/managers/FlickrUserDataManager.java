@@ -6,8 +6,8 @@ import android.util.Log;
 
 import com.google.gson.Gson;
 import com.googlecode.flickrjandroid.people.User;
-import com.lorem_ipsum.utils.AppUtils;
-import com.lorem_ipsum.utils.StringUtils;
+import com.viethoa.siliconstraits.testing.utils.AppUtils;
+import com.viethoa.siliconstraits.testing.utils.StringUtils;
 
 /**
  * Created by VietHoa on 27/07/15.

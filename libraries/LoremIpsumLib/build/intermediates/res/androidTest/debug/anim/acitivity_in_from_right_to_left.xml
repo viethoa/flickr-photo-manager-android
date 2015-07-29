@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:anim/accelerate_decelerate_interpolator">
-    <translate
-        android:fromXDelta="100%p"
-        android:toXDelta="0"
-        android:duration="250"
-    />
-</set><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/src/main/res/anim/acitivity_in_from_right_to_left.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/anim/acitivity_in_from_right_to_left.xml -->

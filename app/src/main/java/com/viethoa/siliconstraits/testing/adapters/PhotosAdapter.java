@@ -14,10 +14,10 @@ import android.view.animation.OvershootInterpolator;
 import android.widget.ImageView;
 import android.widget.TextSwitcher;
 
-import com.lorem_ipsum.utils.DeviceUtils;
 import com.viethoa.siliconstraits.testing.R;
 import com.viethoa.siliconstraits.testing.images.loader.ImageLoader;
 import com.viethoa.siliconstraits.testing.models.FlickrPhoto;
+import com.viethoa.siliconstraits.testing.utils.DeviceUtils;
 
 import java.util.ArrayList;
 

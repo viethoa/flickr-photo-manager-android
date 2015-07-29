@@ -26,7 +26,6 @@ public final class AppModule$$ModuleAdapter extends ModuleAdapter<AppModule> {
   @Override
   public void getBindings(BindingsGroup bindings, AppModule module) {
     bindings.contributeProvidesBinding("android.content.Context", new ProvideApplicationContextProvidesAdapter(module));
-    bindings.contributeProvidesBinding("com.lorem_ipsum.managers.UserSessionDataManager", new ProvidesUserManagerProvidesAdapter(module));
     bindings.contributeProvidesBinding("com.google.gson.Gson", new ProvidesJsonConverterProvidesAdapter(module));
   }
 
@@ -54,33 +53,6 @@ public final class AppModule$$ModuleAdapter extends ModuleAdapter<AppModule> {
     @Override
     public android.content.Context get() {
       return module.provideApplicationContext();
-    }
-  }
-
-  /**
-   * A {@code Binding<com.lorem_ipsum.managers.UserSessionDataManager>} implementation which satisfies
-   * Dagger's infrastructure requirements including:
-   *
-   * Being a {@code Provider<com.lorem_ipsum.managers.UserSessionDataManager>} and handling creation and
-   * preparation of object instances.
-   */
-  public static final class ProvidesUserManagerProvidesAdapter extends ProvidesBinding<com.lorem_ipsum.managers.UserSessionDataManager>
-      implements Provider<com.lorem_ipsum.managers.UserSessionDataManager> {
-    private final AppModule module;
-
-    public ProvidesUserManagerProvidesAdapter(AppModule module) {
-      super("com.lorem_ipsum.managers.UserSessionDataManager", IS_SINGLETON, "com.viethoa.siliconstraits.testing.daggers.modules.AppModule", "providesUserManager");
-      this.module = module;
-      setLibrary(true);
-    }
-
-    /**
-     * Returns the fully provisioned instance satisfying the contract for
-     * {@code Provider<com.lorem_ipsum.managers.UserSessionDataManager>}.
-     */
-    @Override
-    public com.lorem_ipsum.managers.UserSessionDataManager get() {
-      return module.providesUserManager();
     }
   }
 

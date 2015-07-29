@@ -1,7 +1,7 @@
 package com.viethoa.siliconstraits.testing;
 
-import com.lorem_ipsum.utils.AppUtils;
 import com.viethoa.siliconstraits.testing.daggers.modules.AppModule;
+import com.viethoa.siliconstraits.testing.utils.AppUtils;
 
 import dagger.ObjectGraph;
 

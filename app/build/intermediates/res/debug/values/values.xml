@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
     <string-array name="tab_titles">
@@ -66,18 +66,6 @@
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="common_action_bar_splitter">#d2d2d2</color>
-    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
-    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
-    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
-    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
-    <color name="common_signin_btn_default_background">#FFDD4B39</color>
-    <color name="common_signin_btn_light_text_default">#FF737373</color>
-    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
-    <color name="common_signin_btn_light_text_focused">#FF737373</color>
-    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="dark_gray">#333333</color>
@@ -113,22 +101,6 @@
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <color name="loremipsum_blue_alpha">#880073CD</color>
-    <color name="loremipsum_orange_alpha">#AAFF5B39</color>
-    <color name="loremipsum_primary_black">#FFFFFF</color>
-    <color name="loremipsum_primary_blue">#0073CD</color>
-    <color name="loremipsum_primary_dark_blue">#0B4868</color>
-    <color name="loremipsum_primary_green">#00ff00</color>
-    <color name="loremipsum_primary_light_gray">#999999</color>
-    <color name="loremipsum_primary_orange">#FFFF5B39</color>
-    <color name="loremipsum_primary_red">#F44336</color>
-    <color name="loremipsum_primary_white">#FFFFFF</color>
-    <color name="loremipsum_progress_color">#00000000</color>
-    <color name="loremipsum_white_alpha">#88FFFFFF</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
-    <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -200,7 +172,6 @@
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
-    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction"><flag name="never" value="0"/><flag name="ifRoom" value="1"/><flag name="always" value="2"/><flag name="withText" value="4"/><flag name="collapseActionView" value="8"/></attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
@@ -213,7 +184,6 @@
     <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="textAllCaps"/></declare-styleable>
     <declare-styleable name="Theme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize"><enum name="wrap_content" value="0"/></attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/></declare-styleable>
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
-    <declare-styleable name="TypefaceTextView"><attr format="string" name="customTypeface"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
@@ -389,60 +359,24 @@
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/external_key.xml -->
     <eat-comment/>
     <string name="app_name">SSS Testing</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/strings.xml -->
-    <eat-comment/>
-    <string name="auth_client_needs_enabling_title">
-      An application requires Google Play Services to be enabled.
-  </string>
-    <string name="auth_client_needs_installation_title">
-      An application requires installation of Google Play Services.
-  </string>
-    <string name="auth_client_needs_update_title">
-      An application requires an update for Google Play Services.
-  </string>
-    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
-    <string name="auth_client_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
-    <string name="auth_client_using_bad_version_title">
-      An application attempted to use a bad version of Google Play Services.
-  </string>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
     <string name="cancel">Cancel</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/strings.xml -->
-    <eat-comment/>
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
-    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
-    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
-    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
-    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
-    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
-    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
-    <string name="common_google_play_services_unsupported_title">Google Play services</string>
-    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
-    <string msgid="1788179980625863495" name="common_google_play_services_update_title">Update Google Play services</string>
-    <string name="common_signin_button_text">Sign in</string>
-    <string name="common_signin_button_text_long">Sign in with Google</string>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/external_key.xml -->
     <eat-comment/>
     <string name="crittercism_key">559a33855c69e80d008f93e6</string>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
     <string name="done">Done</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <string name="empty_string"/>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="empty_string"/>
     <string name="flickr_login_string">Flickr Login</string>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
     <string name="gallery">"Gallery"</string>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="hello_world">Hello world!</string>
     <string name="home_title_string">Photos manager</string>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
@@ -466,9 +400,6 @@
     <eat-comment/>
     <string name="no_images_selected">No images selected</string>
     <string name="progress_title">Processing…</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <string name="session_expired_error_string">Session expired. Please login again.</string>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="slug_login_string">Upload photo stored on this \n device to your Flickr account</string>
@@ -506,9 +437,7 @@
     </style>
     <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="AppTheme.Fullscreen" parent="Base.AppTheme">
-
-    </style>
+    <style name="AppTheme.Fullscreen" parent="Base.AppTheme"/>
     <style name="Application_Theme" parent="Base.AppTheme">
         <item name="android:windowBackground">@color/text_color_bright</item>
     </style>
@@ -1468,7 +1397,7 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="CustomDialog" parent="android:Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>

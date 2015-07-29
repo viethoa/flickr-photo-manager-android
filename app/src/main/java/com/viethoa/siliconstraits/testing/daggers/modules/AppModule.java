@@ -6,9 +6,8 @@ import android.content.Context;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.lorem_ipsum.managers.UserSessionDataManager;
-import com.lorem_ipsum.utils.CustomDateParser;
 import com.viethoa.siliconstraits.testing.MyApplication;
+import com.viethoa.siliconstraits.testing.utils.CustomDateParser;
 
 import java.lang.ref.WeakReference;
 import java.util.Date;
@@ -45,12 +44,6 @@ public class AppModule {
         } else {
             return null;
         }
-    }
-
-    @Provides
-    @Singleton
-    public UserSessionDataManager providesUserManager() {
-        return new UserSessionDataManager();
     }
 
     @Provides

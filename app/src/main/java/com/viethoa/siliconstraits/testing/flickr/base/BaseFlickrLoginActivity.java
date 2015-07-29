@@ -6,7 +6,7 @@ import android.net.Uri;
 import com.googlecode.flickrjandroid.oauth.OAuth;
 import com.googlecode.flickrjandroid.oauth.OAuthToken;
 import com.googlecode.flickrjandroid.people.User;
-import com.viethoa.siliconstraits.testing.controllers.base.MDLBaseActivity;
+import com.viethoa.siliconstraits.testing.controllers.base.BaseActivity;
 import com.viethoa.siliconstraits.testing.flickr.managers.FlickrLoginManager;
 import com.viethoa.siliconstraits.testing.flickr.tasks.GetOAuthTokenTask;
 
@@ -15,7 +15,7 @@ import java.util.Locale;
 /**
  * Created by VietHoa on 28/07/15.
  */
-public abstract class BaseFlickrLoginActivity extends MDLBaseActivity {
+public abstract class BaseFlickrLoginActivity extends BaseActivity {
 
     @Override
     protected void onNewIntent(Intent intent) {
