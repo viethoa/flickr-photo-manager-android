@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values-et/strings.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values-et/strings.xml -->
     <eat-comment/>
     <string msgid="3983201110833868073" name="auth_client_needs_enabling_title">"Rakenduse kasutamiseks peavad olema lubatud Google Play teenused."</string>
     <string msgid="7999585836145154206" name="auth_client_needs_installation_title">"Rakenduse kasutamiseks peavad olema installitud Google Play teenused."</string>

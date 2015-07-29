@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <string-array name="tab_titles">
+        <item>@string/take_photo</item>
+        <item>@string/gallery</item>
+    </string-array>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -19,26 +25,32 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="app_effect_color_light">#f6f6f6</color>
     <color name="app_green_color">#43A047</color>
     <color name="app_highlight_color">#BDBDBD</color>
     <color name="app_line_color">#FF5252</color>
     <color name="app_orange_color">#ffef9c01</color>
-    <color name="app_primary_color">#F44336</color>
-    <color name="app_primary_color_dark">#c31c13</color>
+    <color name="app_primary_color">#0062dd</color>
+    <color name="app_primary_color_dark">#205aa3</color>
     <color name="app_transparent_color">#00FFFFFF</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="black">#000000</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <color name="blue">#FF1AA1E1</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="blue_light">#ff33b5e5</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -48,7 +60,13 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/colors.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
+    <color name="cardview_dark_background">#FF202020</color>
+    <color name="cardview_light_background">#FFFAFAFA</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -60,36 +78,42 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="dark_gray">#333333</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/CustomDialog/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <color name="dialog_bg_color">#fffbfbfb</color>
-    <color name="dialog_bg_content">@color/text_color_light</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="floating_button_color">#da0734</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <color name="green">#ff26e111</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="green_light">#ff99cc00</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="light_gray">#AFFFFFFF</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="loremipsum_blue_alpha">#880073CD</color>
     <color name="loremipsum_orange_alpha">#AAFF5B39</color>
@@ -103,13 +127,22 @@
     <color name="loremipsum_primary_white">#FFFFFF</color>
     <color name="loremipsum_progress_color">#00000000</color>
     <color name="loremipsum_white_alpha">#88FFFFFF</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <color name="orange">#ffe16b10</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="pink_color">#ff0185</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
     <color name="primary_material_dark">#ff212121</color>
@@ -118,26 +151,39 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="red_light">#ffff4444</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="swipe_color_1">#F06292</color>
+    <color name="swipe_color_2">#EC407A</color>
+    <color name="swipe_color_3">#E91E63</color>
+    <color name="swipe_color_4">#D81B60</color>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="tabs_scroll_color">#B71C1C</color>
+    <color name="tabs_scroll_color">#0062dd</color>
     <color name="text_color_black">#FF333333</color>
     <color name="text_color_bright">#FFFFFFFF</color>
     <color name="text_color_dark">#FF555555</color>
     <color name="text_color_gray">#FF777777</color>
     <color name="text_color_hint">#ffb7b7b7</color>
     <color name="text_color_light">#FF999999</color>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
     <color name="white">#FFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
@@ -148,7 +194,8 @@
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
     <declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/></declare-styleable>
     <declare-styleable name="AppCompatTextView"><attr format="reference|boolean" name="textAllCaps"/><attr name="android:textAppearance"/></declare-styleable>
-    <declare-styleable name="CustomTheme"><attr format="reference" name="showcaseViewStyle"/></declare-styleable>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
+    <declare-styleable name="CustomView"><attr format="boolean" name="matchHeightToWidth"/><attr format="boolean" name="matchWidthToHeight"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="topBottomBarArrowSize"/><attr format="dimension" name="middleBarArrowSize"/><attr format="dimension" name="barSize"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
@@ -159,8 +206,8 @@
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
-    <declare-styleable name="ShowcaseView"><attr format="color|reference" name="sv_backgroundColor"/><attr format="color|reference" name="sv_detailTextColor"/><attr format="color|reference" name="sv_titleTextColor"/><attr format="color|reference" name="sv_buttonBackgroundColor"/><attr format="color|reference" name="sv_buttonForegroundColor"/><attr format="string|reference" name="sv_buttonText"/><attr format="reference" name="sv_detailTextAppearance"/><attr format="reference" name="sv_titleTextAppearance"/><attr format="color|reference" name="sv_showcaseColor"/><attr format="boolean|reference" name="sv_tintButtonColor"/></declare-styleable>
     <declare-styleable name="Spinner"><attr format="reference" name="prompt"/><attr format="enum" name="spinnerMode"><enum name="dialog" value="0"/><enum name="dropdown" value="1"/></attr><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr format="reference" name="popupPromptView"/><attr name="android:gravity"/><attr format="boolean" name="disableChildrenWhenDisabled"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="reference" name="track"/><attr name="android:textOn"/><attr name="android:textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/><attr format="boolean" name="splitTrack"/><attr format="boolean" name="showText"/></declare-styleable>
     <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="textAllCaps"/></declare-styleable>
@@ -169,7 +216,7 @@
     <declare-styleable name="TypefaceTextView"><attr format="string" name="customTypeface"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -231,22 +278,21 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/show-case-view/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <dimen name="action_bar_offset">66dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/show-case-view/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <dimen name="button_margin">12dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="buttontoast_hover">24dp</dimen>
     <dimen name="buttontoast_x_padding">12dp</dimen>
     <dimen name="cardtoast_margin">4dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -254,51 +300,51 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="empty_space">0dp</dimen>
-    <dimen name="font_large">18dp</dimen>
-    <dimen name="font_medium">15dp</dimen>
-    <dimen name="font_no_data_view">16dp</dimen>
-    <dimen name="font_small">12dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/CustomDialog/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
-    <dimen name="font_x_large">24dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/dimens.xml -->
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="fab_icon_size">30dp</dimen>
+    <dimen name="fab_press_translation_z">9dp</dimen>
+    <dimen name="fab_size">60dp</dimen>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_medium">17sp</dimen>
+    <dimen name="font_no_data_view">16dp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_xlarge">23sp</dimen>
+    <dimen name="item_icon_size">30dp</dimen>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="large_space">15dp</dimen>
     <dimen name="line_space">1px</dimen>
     <dimen name="medium_space">10dp</dimen>
     <dimen name="no_data_view_margin">60dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="search_padding">13dp</dimen>
-    <dimen name="search_text_size">16dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/show-case-view/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <dimen name="showcase_radius">94dp</dimen>
-    <dimen name="showcase_radius_inner">96dp</dimen>
-    <dimen name="showcase_radius_outer">128dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/dimens.xml -->
-    <eat-comment/>
+    <dimen name="progress_loading_size">45dp</dimen>
+    <dimen name="setting_icon_width">40dp</dimen>
     <dimen name="small_space">5dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/show-case-view/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <dimen name="text_padding">24dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="toast_hover">64dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="toolbar_height">45dp</dimen>
+    <dimen name="toolbar_height">52dp</dimen>
     <dimen name="xlarge_space">20dp</dimen>
     <dimen name="xxlarge_space">25dp</dimen>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -306,15 +352,13 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="home" type="id"/>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/show-case-view/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <item name="showcase_button" type="id"/>
-    <item name="showcase_sub_text" type="id"/>
-    <item name="showcase_title_text" type="id"/>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
-    <eat-comment/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
@@ -339,13 +383,13 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/external_key.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/external_key.xml -->
     <eat-comment/>
-    <string name="app_name">ShapeProject</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/strings.xml -->
+    <string name="app_name">SSS Testing</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/strings.xml -->
     <eat-comment/>
     <string name="auth_client_needs_enabling_title">
       An application requires Google Play Services to be enabled.
@@ -361,10 +405,10 @@
     <string name="auth_client_using_bad_version_title">
       An application attempted to use a bad version of Google Play Services.
   </string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/external_key.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
-    <string name="banner_ad_unit_id">ca-app-pub-9589819517676610/4922275084</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/strings.xml -->
+    <string name="cancel">Cancel</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values/strings.xml -->
     <eat-comment/>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
@@ -381,52 +425,94 @@
     <string msgid="1788179980625863495" name="common_google_play_services_update_title">Update Google Play services</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/external_key.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/external_key.xml -->
     <eat-comment/>
     <string name="crittercism_key">559a33855c69e80d008f93e6</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <string name="done">Done</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="empty_string"/>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/external_key.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="facebook_app_id">748829608517453</string>
-    <string name="gcm_key">29861012344</string>
-    <string name="google_map_v2_api_key">AIzaSyDxAKwj6fQy945EjNqCZSrn0ZwGCvNuWNc</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/strings.xml -->
+    <string name="flickr_login_string">Flickr Login</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <string name="gallery">"Gallery"</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/external_key.xml -->
+    <string name="home_title_string">Photos manager</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <string name="imageview_capture_photo_content_description">Take photo using device camera</string>
+    <string name="imageview_content_description">Gallery item image</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/external_key.xml -->
     <eat-comment/>
     <string name="localytics_key">5ec41f10d3f5183738afee8-7b83258e-a052-11e4-aaa3-009c5fda0a25</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/show-case-view/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="ok">OK</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
+    <string name="menu_feedback_string">Send Feedback</string>
+    <string name="menu_logout_string">Logout</string>
+    <string name="menu_upload_string">Upload photo</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <string name="n_images_selected">%1$s images selected already</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="no_data_string">empty photo... !</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <string name="no_images_selected">No images selected</string>
+    <string name="progress_title">Processing…</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="session_expired_error_string">Session expired. Please login again.</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="slug_login_string">Upload photo stored on this \n device to your Flickr account</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
+    <string name="take_photo">Take a photo</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_home_screen">Home</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_pinned_section">PinnedSectionActivity</string>
     <string name="title_activity_search_view">SearchViewActivity</string>
     <string name="title_activity_sliding_tabs_color">SlidingTabsColorActivity</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/external_key.xml -->
-    <eat-comment/>
-    <string name="youtube_v3_api_key">AIzaSyCZLEQjaS-Yv4wtvTsaAEs9zecKNehpW_U</string>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <string name="title_activity_swip_menu_list_view">SwipMenuListViewActivity</string>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Base.AppTheme"/>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#ff5d49ff</item>
+        <item name="colorPrimaryDark">#ff2328ff</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme.Fullscreen" parent="Base.AppTheme">
+
+    </style>
     <style name="Application_Theme" parent="Base.AppTheme">
         <item name="android:windowBackground">@color/text_color_bright</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -444,17 +530,20 @@
         <item name="android:windowEnterAnimation">@anim/abc_grow_fade_in_from_bottom</item>
         <item name="android:windowExitAnimation">@anim/abc_shrink_fade_out_from_bottom</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Base.AppTheme" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/app_effect_color_light</item>
         <item name="colorPrimary">@color/app_primary_color</item>
         <item name="colorPrimaryDark">@color/app_primary_color_dark</item>
-        <item name="colorAccent">@color/app_primary_color_dark</item>
+        <item name="colorAccent">@color/app_primary_color</item>
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="textAllCaps">false</item>
+
+        <item name="actionOverflowMenuStyle">@style/Theme.PopupMenu</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.DialogWindowTitle.AppCompat" parent="android:Widget">
         <item name="android:maxLines">1</item>
@@ -671,7 +760,7 @@
         <item name="colorControlNormal">?android:attr/textColorPrimary</item>
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
     </style>
-    <style name="Base.ThemeOverlay.AppCompat.Dark">
+    <style name="Base.ThemeOverlay.AppCompat.Dark" parent="Platform.ThemeOverlay.AppCompat.Dark">
         <item name="android:windowBackground">@color/background_material_dark</item>
         <item name="android:colorForeground">@color/bright_foreground_material_dark</item>
         <item name="android:colorForegroundInverse">@color/bright_foreground_material_light</item>
@@ -1354,7 +1443,32 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
+    <eat-comment/>
+    <style name="CameraButtonStyle">
+        <item name="android:layout_width">@dimen/fab_size</item>
+        <item name="android:layout_height">@dimen/fab_size</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:contentDescription">@string/imageview_capture_photo_content_description</item>
+        <item name="android:layout_gravity">center_horizontal|bottom</item>
+    </style>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="CustomDialog" parent="android:Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -1368,7 +1482,7 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <style name="DefaultRootLayout">
         <item name="android:background">@drawable/background_standard_gray</item>
@@ -1383,17 +1497,12 @@
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/CustomDialog/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values/values.xml -->
     <eat-comment/>
-    <style name="DialogAnimationSlideDown">
-        <item name="android:windowEnterAnimation">@anim/slide_down</item>
-        <item name="android:windowExitAnimation">@anim/out_down</item>
+    <style name="PPBaseTheme" parent="AppTheme.Base">
+        <!-- API 14 theme customizations can go here. -->
     </style>
-    <style name="DialogAnimationSlideUp">
-        <item name="android:windowEnterAnimation">@anim/slide_up</item>
-        <item name="android:windowExitAnimation">@anim/out_up</item>
-    </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1536,40 +1645,7 @@
     <style name="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation">
         <item name="android:paddingLeft">@dimen/abc_action_bar_navigation_padding_start_material</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/show-case-view/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <style name="ShowcaseButton">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minWidth">96dp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:background">@drawable/button</item>
-    </style>
-    <style name="ShowcaseView">
-        <item name="sv_titleTextAppearance">@style/TextAppearance.ShowcaseView.Title</item>
-        <item name="sv_detailTextAppearance">@style/TextAppearance.ShowcaseView.Detail</item>
-        <item name="sv_backgroundColor">#3333B5E5</item>
-        <item name="sv_buttonText">@android:string/ok</item>
-    </style>
-    <style name="ShowcaseView.Light">
-        <item name="sv_titleTextAppearance">@style/TextAppearance.ShowcaseView.Title</item>
-        <item name="sv_detailTextAppearance">@style/TextAppearance.ShowcaseView.Detail.Light</item>
-        <item name="sv_backgroundColor">#3333B5E5</item>
-        <item name="sv_buttonText">@android:string/ok</item>
-    </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/CustomDialog/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <style name="SimpleDialog" parent="android:Theme.Dialog">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:backgroundDimEnabled">true</item>
-    </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <style name="SuperActivityToast_Button_Button">
         <item name="android:background">@drawable/selector_undobutton</item>
@@ -1615,7 +1691,7 @@
     <style name="SuperCardToast_Button_RootLayout" parent="DefaultRootLayout">
         <item name="android:background">@drawable/selector_undobutton</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
@@ -1673,24 +1749,6 @@
     </style>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/show-case-view/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <style name="TextAppearance.ShowcaseView.Detail" parent="android:style/TextAppearance">
-        <item name="android:textColor">#FFFFFF</item>
-    </style>
-    <style name="TextAppearance.ShowcaseView.Detail.Light">
-        <item name="android:textColor">#333333</item>
-        <item name="android:shadowColor">#FF0000</item>
-        <item name="android:shadowRadius">0</item>
-    </style>
-    <style name="TextAppearance.ShowcaseView.Title" parent="android:style/TextAppearance.Large">
-        <item name="android:textColor">#33B5E5</item>
-    </style>
-    <style name="TextAppearance.ShowcaseView.Title.Light">
-        <item name="android:shadowRadius">0</item>
-    </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
-    <eat-comment/>
     <style name="TextAppearance.StatusBar.EventContent" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Info" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Line2" parent=""/>
@@ -1724,11 +1782,29 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.PopupMenu" parent="AlertDialog.AppCompat.Light">
+        <item name="android:popupBackground">@color/text_color_bright</item>
+    </style>
+    <style name="ThemeBright" parent="Base.AppTheme">
+        <item name="android:windowBackground">@color/app_effect_color_light</item>
+    </style>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Toolbar_Popup" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/text_color_dark</item>
+        <item name="android:background">@color/text_color_bright</item>
+    </style>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
+    <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid">
@@ -1762,8 +1838,7 @@
         <item name="color">?attr/colorControlNormal</item>
     </style>
     <style name="Widget.AppCompat.DropDownItem.Spinner" parent="RtlOverlay.Widget.AppCompat.Search.DropDown.Text"/>
-    <style name="Widget.AppCompat.EditText" parent="Base.Widget.AppCompat.EditText">
-    </style>
+    <style name="Widget.AppCompat.EditText" parent="Base.Widget.AppCompat.EditText"/>
     <style name="Widget.AppCompat.Light.ActionBar" parent="Base.Widget.AppCompat.Light.ActionBar">
     </style>
     <style name="Widget.AppCompat.Light.ActionBar.Solid" parent="Base.Widget.AppCompat.Light.ActionBar.Solid">
@@ -1820,132 +1895,122 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="app_custom_toolbar" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:textColorPrimary">@color/app_primary_color</item>
+        <item name="android:textColor">@color/app_primary_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
     </style>
     <style name="app_no_data_view_style">
         <item name="android:textColor">@color/text_color_light</item>
         <item name="android:textSize">@dimen/font_no_data_view</item>
         <item name="android:layout_marginTop">@dimen/no_data_view_margin</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/CustomDialog/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <style name="app_setting_dialog" parent="android:Theme.Dialog">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:backgroundDimEnabled">false</item>
-    </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/styles.xml -->
-    <eat-comment/>
-    <style name="app_show_case_style" parent="ShowcaseView.Light">
-        <item name="sv_backgroundColor">#99000000</item>
-        <item name="sv_showcaseColor">#000000</item>
-        <item name="sv_buttonText">Got It</item>
-        <item name="sv_tintButtonColor">false</item>
-        <item name="sv_detailTextAppearance">@style/show_case_text_white</item>
+        <item name="android:gravity">center_horizontal</item>
     </style>
     <style name="app_text_view_black_large">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_black</item>
         <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
     </style>
     <style name="app_text_view_black_medium">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_black</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
     <style name="app_text_view_black_small">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_black</item>
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
     </style>
     <style name="app_text_view_bright_large">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_bright</item>
         <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
     </style>
     <style name="app_text_view_bright_medium">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_bright</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
     <style name="app_text_view_bright_small">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_bright</item>
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
     </style>
     <style name="app_text_view_dark_large">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_dark</item>
         <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
     </style>
     <style name="app_text_view_dark_medium">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_dark</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
     <style name="app_text_view_dark_medium_depressed">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_black</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
     <style name="app_text_view_dark_small">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_dark</item>
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
     </style>
     <style name="app_text_view_gray_large">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_gray</item>
         <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
     </style>
     <style name="app_text_view_gray_medium">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_gray</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
     <style name="app_text_view_light_large">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_light</item>
         <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
     </style>
     <style name="app_text_view_light_medium">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_light</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
     <style name="app_text_view_light_small">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/text_color_light</item>
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/ShapeProject.libraries/CustomDialog/unspecified/res/values/values.xml -->
-    <eat-comment/>
-    <style name="dialog_button_negative">
+    <style name="app_text_view_pink_large">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/pink_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    <style name="app_text_view_pink_medium">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/pink_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="app_text_view_pink_small">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/pink_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="app_text_view_primary_large">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/app_primary_color</item>
-        <item name="android:background">@drawable/dialog_button_negative</item>
-        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
     </style>
-    <style name="dialog_button_positive">
+    <style name="app_text_view_primary_medium">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/app_primary_color</item>
-        <item name="android:background">@drawable/dialog_button_positive</item>
-        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
-    <style name="dialog_title">
+    <style name="app_text_view_primary_small">
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textColor">@color/app_primary_color</item>
-        <item name="android:textSize">@dimen/font_large</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:background">@drawable/dialog_content_bg</item>
-        <item name="android:padding">@dimen/large_space</item>
-        <item name="android:gravity">center</item>
-    </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values/styles.xml -->
-    <eat-comment/>
-    <style name="search_view" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:textColor">@color/button_material_dark</item>
-        <item name="android:textColorHint">@color/text_color_hint</item>
-        <item name="android:background">@color/text_color_bright</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingLeft">@dimen/medium_space</item>
-        <item name="android:paddingRight">@dimen/empty_space</item>
-        <item name="android:paddingTop">@dimen/search_padding</item>
-        <item name="android:paddingBottom">@dimen/search_padding</item>
-        <item name="android:textSize">@dimen/search_text_size</item>
-        <item name="android:inputType">textNoSuggestions</item>
-        <item name="android:singleLine">true</item>
-    </style>
-    <style name="show_case_text_white" parent="TextAppearance.AppCompat.Button">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
     </style>
 </resources>

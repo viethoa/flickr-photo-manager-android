@@ -21,4 +21,4 @@
         android:visibility="gone"
         android:background="@drawable/bg_badge_circle_white_with_alpha" />
 
-</RelativeLayout><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/src/main/res/layout/indicator_loading_white.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/layout/indicator_loading_white.xml -->
+</RelativeLayout><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/src/main/res/layout/indicator_loading_white.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/layout/indicator_loading_white.xml -->

@@ -1,0 +1,12 @@
+<!-- Galaxy S4 (SGH-I337) -->
+<deviceProfile>
+
+	<maxPictureHeight>
+2448
+	</maxPictureHeight>
+
+	<recordingHint>
+STILL_ONLY
+	</recordingHint>
+
+</deviceProfile><!-- From: file:/home/mmurphy/stuff/CommonsWare/projects/CWAC/Camera/camera/res/xml/cwac_camera_profile_samsung_jflteuc.xml -->

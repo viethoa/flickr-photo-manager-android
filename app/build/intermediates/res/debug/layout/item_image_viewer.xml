@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <ImageView
+        android:id="@+id/image_default_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/default_image_holder"
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/image_progress"
+        android:layout_width="@dimen/progress_loading_size"
+        android:layout_height="@dimen/progress_loading_size"
+        android:layout_gravity="center"/>
+
+    <com.viethoa.siliconstraits.testing.view.ui.ImageViewer
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/layout/item_image_viewer.xml -->

@@ -6,40 +6,33 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/toolbar_height"
     android:background="@color/app_primary_color"
-    android:elevation="0dp"
-    android:minHeight="@dimen/toolbar_height"
-    android:theme="@android:style/ThemeOverlay.Material.Light"
+    android:elevation="10dp"
     app:contentInsetLeft="@dimen/empty_space"
-    app:contentInsetStart="@dimen/empty_space">
+    app:contentInsetStart="@dimen/empty_space"
+    app:popupTheme="@style/Toolbar_Popup">
 
-    <RelativeLayout
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:elevation="@dimen/empty_space">
+        android:gravity="center_vertical">
 
-        <!--<ImageView
-            android:id="@+id/iv_logo"
-            android:layout_width="25dp"
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerInside"
-            android:src="@mipmap/ic_logo"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/medium_space"
-            android:layout_marginRight="@dimen/medium_space"
-            android:layout_marginStart="@dimen/medium_space"
-            android:layout_marginEnd="@dimen/medium_space"/>  android:layout_toRightOf="@id/iv_logo"-->
+            android:src="@mipmap/ic_launcher"
+            android:padding="7dp"/>
 
         <TextView
-            style="@style/app_text_view_bright_large"
+            android:layout_toRightOf="@id/iv_icon"
+            style="@style/app_text_view_bright_medium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/medium_space"
-            android:paddingTop="@dimen/medium_space"
-            android:text="Title"
-            android:textColor="@color/text_color_bright"
-            android:textStyle="bold" />
+            android:text="@string/home_title_string"
+            android:textSize="@dimen/font_large" />
+    </LinearLayout>
 
-
-    </RelativeLayout>
-</android.support.v7.widget.Toolbar><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/layout-v21/app_toolbar.xml -->
+</android.support.v7.widget.Toolbar><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/layout-v21/app_toolbar.xml -->

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/image_view_layout"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/medium_space">
+
+            <ImageView
+                android:id="@+id/iv_like"
+                android:layout_width="@dimen/item_icon_size"
+                android:layout_height="@dimen/item_icon_size"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_heart_gray_cover"/>
+
+            <ImageView
+                android:id="@+id/iv_share"
+                android:layout_toRightOf="@id/iv_like"
+                android:layout_width="@dimen/item_icon_size"
+                android:layout_height="@dimen/item_icon_size"
+                android:scaleType="centerInside"
+                android:layout_marginLeft="@dimen/medium_space"
+                android:layout_marginStart="@dimen/medium_space"
+                android:src="@mipmap/ic_comment"/>
+
+            <TextSwitcher
+                android:id="@+id/switcher_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:inAnimation="@anim/slide_in_likes_counter"
+                android:outAnimation="@anim/slide_out_likes_counter">
+
+                <TextView
+                    style="@style/app_text_view_primary_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="123 likes" />
+
+                <TextView
+                    style="@style/app_text_view_primary_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TextSwitcher>
+
+            <ImageView
+                android:layout_toLeftOf="@id/switcher_favorite"
+                android:layout_width="@dimen/item_icon_size"
+                android:layout_height="@dimen/item_icon_size"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_heart_blue"
+                android:padding="7dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+<!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/layout/item_photo_layout.xml -->

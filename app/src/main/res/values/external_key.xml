@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ShapeProject</string>
+    <string name="app_name">SSS Testing</string>
 
     <!-- Localytics (per app) -->
     <string name="localytics_key">5ec41f10d3f5183738afee8-7b83258e-a052-11e4-aaa3-009c5fda0a25</string>
@@ -9,17 +9,4 @@
     <!-- Critercism (can be shared, prefer create new app on Critercism) -->
     <string name="crittercism_key">559a33855c69e80d008f93e6</string>
 
-    <!-- Facebook -->
-    <string name="facebook_app_id">748829608517453</string>
-
-    <!-- Google map API key (can be shared) -->
-    <string name="google_map_v2_api_key">AIzaSyDxAKwj6fQy945EjNqCZSrn0ZwGCvNuWNc</string>
-
-    <string name="youtube_v3_api_key">AIzaSyCZLEQjaS-Yv4wtvTsaAEs9zecKNehpW_U</string>
-
-    <!-- Google Cloud Message (per project) -->
-    <string name="gcm_key">29861012344</string>
-
-    <!-- Google AdMob -->
-    <string name="banner_ad_unit_id">ca-app-pub-9589819517676610/4922275084</string>
 </resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jay/git-repos/poly-picker/PolyPicker/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="tab_titles">
+        <item>@string/take_photo</item>
+        <item>@string/gallery</item>
+    </string-array>
+    <!-- From: file:/home/jay/git-repos/poly-picker/PolyPicker/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="blue">#FF1AA1E1</color>
+    <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <color name="green">#ff26e111</color>
+    <color name="orange">#ffe16b10</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="CustomView"><attr format="boolean" name="matchHeightToWidth"/><attr format="boolean" name="matchWidthToHeight"/></declare-styleable>
+    <!-- From: file:/home/jay/git-repos/poly-picker/PolyPicker/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="fab_icon_size">30dp</dimen>
+    <dimen name="fab_press_translation_z">9dp</dimen>
+    <dimen name="fab_size">60dp</dimen>
+    <!-- From: file:/home/jay/git-repos/poly-picker/PolyPicker/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">PolyPicker</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="gallery">"Gallery"</string>
+    <string name="imageview_capture_photo_content_description">Take photo using device camera</string>
+    <string name="imageview_content_description">Gallery item image</string>
+    <string name="n_images_selected">%1$s images selected already</string>
+    <string name="no_images_selected">No images selected</string>
+    <string name="progress_title">Processing…</string>
+    <string name="take_photo">Take a photo</string>
+    <!-- From: file:/home/jay/git-repos/poly-picker/PolyPicker/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#ff5d49ff</item>
+        <item name="colorPrimaryDark">#ff2328ff</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="CameraButtonStyle">
+        <item name="android:layout_width">@dimen/fab_size</item>
+        <item name="android:layout_height">@dimen/fab_size</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:contentDescription">@string/imageview_capture_photo_content_description</item>
+        <item name="android:layout_gravity">center_horizontal|bottom</item>
+    </style>
+    <style name="PPBaseTheme" parent="AppTheme.Base">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+</resources>

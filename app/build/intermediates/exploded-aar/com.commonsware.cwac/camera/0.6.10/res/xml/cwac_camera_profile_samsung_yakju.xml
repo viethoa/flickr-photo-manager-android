@@ -1,0 +1,8 @@
+<!-- Galaxy Nexus (yakju) -->
+<deviceProfile>
+
+	<pictureDelay>
+250
+	</pictureDelay>
+
+</deviceProfile><!-- From: file:/home/mmurphy/stuff/CommonsWare/projects/CWAC/Camera/camera/res/xml/cwac_camera_profile_samsung_yakju.xml -->

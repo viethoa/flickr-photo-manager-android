@@ -1,0 +1,8 @@
+<!-- Galaxy Camera (WiFi?) -->
+<deviceProfile>
+
+	<maxPictureHeight>
+1023
+	</maxPictureHeight>
+
+</deviceProfile><!-- From: file:/home/mmurphy/stuff/CommonsWare/projects/CWAC/Camera/camera/res/xml/cwac_camera_profile_htc_htc_mecha.xml -->

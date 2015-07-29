@@ -10,22 +10,6 @@ import java.util.Date;
  */
 public class User implements Serializable {
 
-
-//    "id":13,
-//    "email":"",
-//    "last_login_timestamp":1429848485,
-//    "created_timestamp":1429848485,
-//    "secret":"52a39820798e7b92e27faceed51a2ffbb960f142",
-//    "secret_expiry_timestamp":1429855685,
-//    "reset_password":null,
-//    "verified_account":null,
-//    "device_token":"1_1234",
-//    "banned":null,
-//    "modified_timestamp":1429848485,
-//    "first_name":null,
-//    "last_name":null,
-//    "display_name":"User"
-
     public Number id;
     public String email;
     public Date last_login_timestamp;

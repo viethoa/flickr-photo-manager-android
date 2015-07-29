@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/libraries/CustomDialog/CustomDialog.iml" filepath="$PROJECT_DIR$/libraries/CustomDialog/CustomDialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/LoremIpsumLib/LoremIpsumLib.iml" filepath="$PROJECT_DIR$/libraries/LoremIpsumLib/LoremIpsumLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShapeProject.iml" filepath="$PROJECT_DIR$/ShapeProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SiliconStraitsTestApp.iml" filepath="$PROJECT_DIR$/SiliconStraitsTestApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/show-case-view/show-case-view.iml" filepath="$PROJECT_DIR$/libraries/show-case-view/show-case-view.iml" />
     </modules>
   </component>
 </project>

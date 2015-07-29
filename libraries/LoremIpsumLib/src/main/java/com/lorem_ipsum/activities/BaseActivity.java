@@ -13,7 +13,6 @@ import android.util.Log;
 import android.widget.EditText;
 
 import com.androidquery.AQuery;
-import com.crittercism.app.Crittercism;
 import com.lorem_ipsum.R;
 import com.lorem_ipsum.requests.MyDataCallback;
 import com.lorem_ipsum.utils.AnimationUtils;
@@ -111,14 +110,14 @@ public class BaseActivity extends AppCompatActivity {
     /**
      * show dialog loading
      */
-    protected void showLoadingDialog() {
+    public void showLoadingDialog() {
         if (mLoadingDialog != null && !mLoadingDialog.isShowing()) {
             mLoadingDialog.show();
             AnimationUtils.AnimationWheelForDialog(this, mLoadingDialog.findViewById(R.id.loading_progress_wheel_view_container));
         }
     }
 
-    protected boolean isShowLoadingDialog() {
+    public boolean isShowLoadingDialog() {
         if (mLoadingDialog == null)
             return false;
         return mLoadingDialog.isShowing();
@@ -127,7 +126,7 @@ public class BaseActivity extends AppCompatActivity {
     /**
      * Dismiss loading dialog if it's showing
      */
-    protected void dismissLoadingDialog() {
+    public void dismissLoadingDialog() {
         if (mLoadingDialog != null) {
             try {
                 mLoadingDialog.dismiss();

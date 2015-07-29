@@ -22,4 +22,4 @@
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/empty_string"/>
 
-</RelativeLayout><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/src/main/res/layout/dialog_progress_wheel.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/layout/dialog_progress_wheel.xml -->
+</RelativeLayout><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/src/main/res/layout/dialog_progress_wheel.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/layout/dialog_progress_wheel.xml -->

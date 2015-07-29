@@ -1,0 +1,8 @@
+<!-- Galaxy S3 (AT&T?) -->
+<deviceProfile>
+
+	<minPictureHeight>
+1836
+	</minPictureHeight>
+
+</deviceProfile><!-- From: file:/home/mmurphy/stuff/CommonsWare/projects/CWAC/Camera/camera/res/xml/cwac_camera_profile_samsung_d2att.xml -->

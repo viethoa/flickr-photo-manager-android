@@ -3,4 +3,19 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_sliding_tabs_color">SlidingTabsColorActivity</string>
     <string name="title_activity_search_view">SearchViewActivity</string>
+    <string name="title_activity_pinned_section">PinnedSectionActivity</string>
+    <string name="title_activity_swip_menu_list_view">SwipMenuListViewActivity</string>
+
+    <!-- Login -->
+    <string name="title_activity_login">Login</string>
+    <string name="flickr_login_string">Flickr Login</string>
+    <string name="slug_login_string">Upload photo stored on this \n device to your Flickr account</string>
+
+    <!-- Home -->
+    <string name="title_activity_home_screen">Home</string>
+    <string name="home_title_string">Photos manager</string>
+    <string name="menu_upload_string">Upload photo</string>
+    <string name="menu_logout_string">Logout</string>
+    <string name="menu_feedback_string">Send Feedback</string>
+    <string name="no_data_string">empty photo... !</string>
 </resources>

@@ -2,4 +2,4 @@
     android:duration="500"
     android:fromXDelta="0"
     android:interpolator="@anim/cycle_7"
-    android:toXDelta="10" /><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/src/main/res/anim/shake.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/anim/shake.xml -->
+    android:toXDelta="10" /><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/src/main/res/anim/shake.xml --><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/libraries/LoremIpsumLib/build/intermediates/bundles/debug/res/anim/shake.xml -->

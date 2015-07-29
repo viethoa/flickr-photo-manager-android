@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/app_effect_color_light</item>
         <item name="android:colorPrimary">@color/app_primary_color</item>
         <item name="android:colorPrimaryDark">@color/app_primary_color_dark</item>
-        <item name="android:colorAccent">@color/app_primary_color_dark</item>
+        <item name="android:colorAccent">@color/app_primary_color</item>
         <item name="android:textAllCaps">false</item>
+
+        <item name="actionOverflowMenuStyle">@style/Theme.PopupMenu</item>
     </style>
-    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/Android-Shape/ShapeProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-v21/values-v21.xml -->
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
@@ -190,6 +193,7 @@
     <style name="Base.Widget.AppCompat.CompoundButton.CheckBox" parent="android:Widget.Material.CompoundButton.CheckBox"/>
     <style name="Base.Widget.AppCompat.CompoundButton.RadioButton" parent="android:Widget.Material.CompoundButton.RadioButton"/>
     <style name="Base.Widget.AppCompat.DropDownItem.Spinner" parent="android:Widget.Material.DropDownItem.Spinner"/>
+    <style name="Base.Widget.AppCompat.EditText" parent="android:Widget.Material.EditText"/>
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="android:Widget.Material.Light.ActionBar.TabText">
     </style>
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="android:Widget.Material.Light.ActionBar.TabText">
@@ -228,6 +232,21 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/res/values-v21/values.xml -->
+    <eat-comment/>
+    <style name="CameraFABButtonStyle" parent="CameraButtonStyle">
+        <item name="android:background">@drawable/fab_background</item>
+        <item name="android:elevation">@dimen/fab_elevation</item>
+    </style>
+    <style name="PPBaseTheme" parent="AppTheme.Base">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+    <!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v21/values-v21.xml -->
+    <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>

@@ -17,102 +17,150 @@ uses-permission#android.permission.INTERNET
 ADDED from AndroidManifest.xml:5:5
 	android:name
 		ADDED from AndroidManifest.xml:5:22
-uses-permission#android.permission.ACCESS_FINE_LOCATION
+uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from AndroidManifest.xml:6:5
 	android:name
 		ADDED from AndroidManifest.xml:6:22
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from AndroidManifest.xml:7:5
 	android:name
 		ADDED from AndroidManifest.xml:7:22
-uses-permission#android.permission.ACCESS_NETWORK_STATE
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from AndroidManifest.xml:8:5
 	android:name
 		ADDED from AndroidManifest.xml:8:22
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from AndroidManifest.xml:9:5
-	android:name
-		ADDED from AndroidManifest.xml:9:22
-uses-permission#android.permission.READ_PHONE_STATE
+uses-feature#android.hardware.camera
 ADDED from AndroidManifest.xml:10:5
 	android:name
-		ADDED from AndroidManifest.xml:10:22
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+		ADDED from AndroidManifest.xml:10:19
+uses-feature#android.hardware.camera.autofocus
 ADDED from AndroidManifest.xml:11:5
+	android:required
+		ADDED from AndroidManifest.xml:13:9
 	android:name
-		ADDED from AndroidManifest.xml:11:22
+		ADDED from AndroidManifest.xml:12:9
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
 meta-data#LOCALYTICS_APP_KEY
-ADDED from AndroidManifest.xml:26:5
+ADDED from AndroidManifest.xml:31:5
 	android:value
-		ADDED from AndroidManifest.xml:28:9
-	android:name
-		ADDED from AndroidManifest.xml:27:9
-application
-ADDED from AndroidManifest.xml:30:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.android.support:appcompat-v7:22.2.0:22:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from ShapeProject.libraries:LoremIpsumLib:unspecified:11:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.android.support:appcompat-v7:22.2.0:22:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.github.johnpersano:supertoasts:1.3.4:5:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from ShapeProject.libraries:CustomDialog:unspecified:11:5
-	android:label
-		ADDED from AndroidManifest.xml:34:9
-	android:allowBackup
-		ADDED from AndroidManifest.xml:32:9
-	android:icon
 		ADDED from AndroidManifest.xml:33:9
-	android:theme
-		ADDED from AndroidManifest.xml:35:9
 	android:name
-		ADDED from AndroidManifest.xml:31:9
-activity#com.originally.shape.controllers.MainActivity
-ADDED from AndroidManifest.xml:56:9
+		ADDED from AndroidManifest.xml:32:9
+application
+ADDED from AndroidManifest.xml:35:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from com.android.support:appcompat-v7:22.2.1:22:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from com.android.support:cardview-v7:22.2.1:22:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from net.the4thdimension:poly-picker:1.0.13:11:5
+MERGED from com.android.support:appcompat-v7:22.2.1:22:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from com.android.support:support-v13:21.0.0:16:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from com.commonsware.cwac:camera:0.6.10:11:5
+MERGED from SiliconStraitsTestApp.libraries:LoremIpsumLib:unspecified:11:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from com.android.support:appcompat-v7:22.2.1:22:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from com.github.johnpersano:supertoasts:1.3.4:5:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
 	android:label
-		ADDED from AndroidManifest.xml:58:13
+		ADDED from AndroidManifest.xml:39:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:37:9
+	android:icon
+		ADDED from AndroidManifest.xml:38:9
+	android:largeHeap
+		ADDED from AndroidManifest.xml:40:9
 	android:theme
-		ADDED from AndroidManifest.xml:59:13
+		ADDED from AndroidManifest.xml:41:9
 	android:name
-		ADDED from AndroidManifest.xml:57:13
+		ADDED from AndroidManifest.xml:36:9
+activity#com.viethoa.siliconstraits.testing.controllers.MainActivity
+ADDED from AndroidManifest.xml:42:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:45:13
+	android:label
+		ADDED from AndroidManifest.xml:44:13
+	android:theme
+		ADDED from AndroidManifest.xml:46:13
+	android:name
+		ADDED from AndroidManifest.xml:43:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:60:13
+ADDED from AndroidManifest.xml:47:13
 action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:48:17
+	android:name
+		ADDED from AndroidManifest.xml:48:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:50:17
+	android:name
+		ADDED from AndroidManifest.xml:50:27
+activity#com.viethoa.siliconstraits.testing.controllers.LoginActivity
+ADDED from AndroidManifest.xml:53:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:56:13
+	android:label
+		ADDED from AndroidManifest.xml:55:13
+	android:theme
+		ADDED from AndroidManifest.xml:57:13
+	android:name
+		ADDED from AndroidManifest.xml:54:13
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:58:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:59:17
+	android:name
+		ADDED from AndroidManifest.xml:59:25
+category#android.intent.category.DEFAULT
 ADDED from AndroidManifest.xml:61:17
 	android:name
-		ADDED from AndroidManifest.xml:61:25
-category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:63:17
+		ADDED from AndroidManifest.xml:61:27
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:62:17
 	android:name
-		ADDED from AndroidManifest.xml:63:27
-activity#com.originally.shape.countroll.modules.SlidingTabsColors.SlidingTabsColorActivity
-ADDED from AndroidManifest.xml:66:9
-	android:label
+		ADDED from AndroidManifest.xml:62:27
+data
+ADDED from AndroidManifest.xml:64:17
+	android:scheme
+		ADDED from AndroidManifest.xml:64:23
+activity#nl.changer.polypicker.ImagePickerActivity
+ADDED from AndroidManifest.xml:67:9
+	android:theme
+		ADDED from AndroidManifest.xml:69:13
+	android:name
 		ADDED from AndroidManifest.xml:68:13
+activity#com.viethoa.siliconstraits.testing.controllers.PhotoViewerActivity
+ADDED from AndroidManifest.xml:70:9
+	android:theme
+		ADDED from AndroidManifest.xml:72:13
 	android:name
-		ADDED from AndroidManifest.xml:67:13
-activity#com.originally.shape.countroll.modules.SearchView.SearchViewActivity
-ADDED from AndroidManifest.xml:74:9
-	android:label
-		ADDED from AndroidManifest.xml:76:13
-	android:name
-		ADDED from AndroidManifest.xml:75:13
+		ADDED from AndroidManifest.xml:71:13
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.android.support:appcompat-v7:22.2.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from ShapeProject.libraries:LoremIpsumLib:unspecified:7:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.android.support:appcompat-v7:22.2.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+MERGED from com.android.support:appcompat-v7:22.2.1:20:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+MERGED from com.android.support:cardview-v7:22.2.1:20:5
+MERGED from com.android.support:recyclerview-v7:22.2.1:20:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+MERGED from net.the4thdimension:poly-picker:1.0.13:7:5
+MERGED from com.android.support:appcompat-v7:22.2.1:20:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+MERGED from com.android.support:support-v13:21.0.0:15:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+MERGED from com.commonsware.cwac:camera:0.6.10:7:5
+MERGED from SiliconStraitsTestApp.libraries:LoremIpsumLib:unspecified:7:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+MERGED from com.android.support:appcompat-v7:22.2.1:20:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
 MERGED from com.github.johnpersano:supertoasts:1.3.4:3:5
 MERGED from com.google.android.gms:play-services:3.1.59:7:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from ShapeProject.libraries:show-case-view:unspecified:22:5
-MERGED from ShapeProject.libraries:CustomDialog:unspecified:7:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
@@ -120,8 +168,8 @@ MERGED from ShapeProject.libraries:CustomDialog:unspecified:7:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 activity#com.lorem_ipsum.activities.BaseWebviewActivity
-ADDED from ShapeProject.libraries:LoremIpsumLib:unspecified:14:9
+ADDED from SiliconStraitsTestApp.libraries:LoremIpsumLib:unspecified:14:9
 	android:screenOrientation
-		ADDED from ShapeProject.libraries:LoremIpsumLib:unspecified:16:13
+		ADDED from SiliconStraitsTestApp.libraries:LoremIpsumLib:unspecified:16:13
 	android:name
-		ADDED from ShapeProject.libraries:LoremIpsumLib:unspecified:15:13
+		ADDED from SiliconStraitsTestApp.libraries:LoremIpsumLib:unspecified:15:13

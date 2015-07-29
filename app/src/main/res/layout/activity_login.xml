@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".controllers.LoginActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/xxlarge_space"
+    android:gravity="center_horizontal"
+    android:background="@drawable/login_bg">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/empty_space"
+        android:layout_weight="0.5"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="@dimen/empty_space"
+            android:layout_height="@dimen/empty_space"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="@dimen/empty_space"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_logo"/>
+
+        <View
+            android:layout_width="@dimen/empty_space"
+            android:layout_height="@dimen/empty_space"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        style="@style/app_text_view_bright_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:text="@string/slug_login_string"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/empty_space"
+        android:layout_weight="5"/>
+
+    <Button
+        android:id="@+id/btn_flick_login"
+        style="@style/app_text_view_primary_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_flickr_login"
+        android:text="@string/flickr_login_string"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/empty_space"
+        android:layout_weight="0.5"/>
+</LinearLayout>

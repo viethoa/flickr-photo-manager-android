@@ -36,11 +36,10 @@ public class BaseRequest {
     public static final int DEVELOPMENT = 1;
     public static final int PRODUCTION = 2;
 
-    private static final String DEVELOPMENT_SERVER = "http://by.originally.us/busbuzz";
-    private static final String PRODUCTION_SERVER = "https://by.originally.us/busbuzz";
+    private static final String DEVELOPMENT_SERVER = "https://www.flickr.com/services/rest";
+    private static final String PRODUCTION_SERVER = "https://www.flickr.com/services/rest";
 
     protected static final String GENERIC_URL = "/{url}";
-    private static final String API_VERSION_STRING = "/v1";
 
     public static String getBaseUrl(int appStatus, boolean withPrefix) {
         StringBuilder builder = new StringBuilder();
@@ -53,10 +52,6 @@ public class BaseRequest {
             case PRODUCTION:
                 builder.append(PRODUCTION_SERVER);
                 break;
-        }
-        // get prefix
-        if (withPrefix) {
-            builder.append(API_VERSION_STRING);
         }
         return builder.toString();
     }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jay/git-repos/poly-picker/PolyPicker/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="PPBaseTheme" parent="AppTheme.Base">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+</resources>

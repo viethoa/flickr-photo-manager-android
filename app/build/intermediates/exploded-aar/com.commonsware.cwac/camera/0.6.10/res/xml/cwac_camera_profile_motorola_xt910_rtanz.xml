@@ -1,0 +1,8 @@
+<!-- Motorola Droid RAZR XT910 -->
+<deviceProfile>
+
+	<useTextureView>
+false
+	</useTextureView>
+
+</deviceProfile><!-- From: file:/home/mmurphy/stuff/CommonsWare/projects/CWAC/Camera/camera/res/xml/cwac_camera_profile_motorola_xt910_rtanz.xml -->
