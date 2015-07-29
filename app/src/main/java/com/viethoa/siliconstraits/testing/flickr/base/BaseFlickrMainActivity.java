@@ -6,7 +6,7 @@ import com.googlecode.flickrjandroid.oauth.OAuth;
 import com.googlecode.flickrjandroid.photos.Photo;
 import com.googlecode.flickrjandroid.photos.PhotoList;
 import com.viethoa.siliconstraits.testing.controllers.base.MDLBaseActivity;
-import com.viethoa.siliconstraits.testing.flickr.FlickrManager;
+import com.viethoa.siliconstraits.testing.flickr.managers.FlickrManager;
 import com.viethoa.siliconstraits.testing.flickr.managers.FlickrLoginManager;
 import com.viethoa.siliconstraits.testing.flickr.tasks.UploadPhotoTask;
 import com.viethoa.siliconstraits.testing.models.FlickrPhoto;

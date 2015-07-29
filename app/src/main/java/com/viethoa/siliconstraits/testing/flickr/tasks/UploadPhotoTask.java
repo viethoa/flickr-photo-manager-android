@@ -17,7 +17,7 @@ import com.googlecode.flickrjandroid.oauth.OAuthToken;
 import com.googlecode.flickrjandroid.photos.Photo;
 import com.googlecode.flickrjandroid.uploader.UploadMetaData;
 import com.lorem_ipsum.utils.StringUtils;
-import com.viethoa.siliconstraits.testing.flickr.FlickrManager;
+import com.viethoa.siliconstraits.testing.flickr.managers.FlickrManager;
 
 import java.io.File;
 import java.io.FileInputStream;

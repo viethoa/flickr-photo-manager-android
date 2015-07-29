@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.googlecode.flickrjandroid.Flickr;
 import com.googlecode.flickrjandroid.auth.Permission;
 import com.googlecode.flickrjandroid.oauth.OAuthToken;
-import com.viethoa.siliconstraits.testing.flickr.FlickrManager;
+import com.viethoa.siliconstraits.testing.flickr.managers.FlickrManager;
 import com.viethoa.siliconstraits.testing.flickr.managers.FlickrLoginManager;
 
 import java.net.URL;

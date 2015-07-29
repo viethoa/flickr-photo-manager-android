@@ -1,4 +1,4 @@
-package com.viethoa.siliconstraits.testing.flickr;
+package com.viethoa.siliconstraits.testing.flickr.managers;
 
 import com.googlecode.flickrjandroid.Flickr;
 import com.googlecode.flickrjandroid.FlickrException;
@@ -13,7 +13,6 @@ import com.googlecode.flickrjandroid.photos.PhotoList;
 import com.googlecode.flickrjandroid.photos.PhotosInterface;
 import com.lorem_ipsum.managers.CacheManager;
 import com.lorem_ipsum.utils.StringUtils;
-import com.viethoa.siliconstraits.testing.flickr.managers.FlickrLoginManager;
 
 import org.json.JSONException;
 

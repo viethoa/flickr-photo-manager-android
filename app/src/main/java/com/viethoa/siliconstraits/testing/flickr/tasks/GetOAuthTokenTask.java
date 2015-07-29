@@ -11,7 +11,7 @@ import com.googlecode.flickrjandroid.Flickr;
 import com.googlecode.flickrjandroid.oauth.OAuth;
 import com.googlecode.flickrjandroid.oauth.OAuthInterface;
 import com.viethoa.siliconstraits.testing.flickr.base.BaseFlickrLoginActivity;
-import com.viethoa.siliconstraits.testing.flickr.FlickrManager;
+import com.viethoa.siliconstraits.testing.flickr.managers.FlickrManager;
 
 /**
  * @author Toby Yu(yuyang226@gmail.com)
