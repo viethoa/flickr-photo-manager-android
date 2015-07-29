@@ -8,6 +8,10 @@ Feature
 - Get all user's photos
 - upload photos
 
+Demo SKD
+--------
+https://www.dropbox.com/s/16hxbwjw81g5ugl/app-release.apk?dl=0
+
 ![](https://github.com/viethoa/image-repositories/blob/master/login_screen.png "DynamicListView")
 
 ![](https://github.com/viethoa/image-repositories/blob/master/home_screen.png "DynamicListView")
@@ -16,7 +20,3 @@ Feature
 
 ![](https://github.com/viethoa/image-repositories/blob/master/gallery_screen.png "DynamicListView")
 
-
-Demo SKD
---------
-https://www.dropbox.com/s/16hxbwjw81g5ugl/app-release.apk?dl=0
