@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:add="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@mipmap/ic_docs"
+        add:showAsAction="always"
+        android:title="@string/empty_string">
+        <menu>
+            <item
+                android:id="@+id/action_upload"
+                android:icon="@mipmap/ic_upload"
+                android:title="@string/menu_upload_string"/>
+            <item
+                android:id="@+id/action_logout"
+                android:icon="@mipmap/ic_logout"
+                android:title="@string/menu_logout_string"/>
+            <item
+                android:id="@+id/action_feedback"
+                android:icon="@mipmap/ic_feedback"
+                android:title="@string/menu_feedback_string"/>
+        </menu>
+    </item>
+</menu><!-- From: file:/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/src/main/res/menu/main_menu.xml -->

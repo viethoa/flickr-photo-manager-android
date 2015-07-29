@@ -6,182 +6,182 @@
         jumboMode="false"
         revision="22.0.1"
         sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-1f97b69a35861530b5e22cdbfc31036ee2f64320.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-1f97b69a35861530b5e22cdbfc31036ee2f64320.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-55d7599d8f744203910638b793f92b52a8ea8656.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-55d7599d8f744203910638b793f92b52a8ea8656.jar" />
     </item>
     <item
         jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.2/9e025bc5b84968e7d6ac765e660a70b3e5a87432/universal-image-loader-1.9.2.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="9e025bc5b84968e7d6ac765e660a70b3e5a87432">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-2b4ba155af960d1fdf5da5db069cbbde651e4345.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/universal-image-loader-1.9.2-2b4ba155af960d1fdf5da5db069cbbde651e4345.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/libs/slf4j-android-1.6.1-RC1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="a0b527e8aabcc1f1e97d1674dc3f4f0794ec5df1">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/slf4j-android-1.6.1-RC1-ce0c29e387efb745ed14bda60e93d62afada960c.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/slf4j-android-1.6.1-RC1-ce0c29e387efb745ed14bda60e93d62afada960c.jar" />
     </item>
     <item
         jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.crittercism/crittercism-android-agent/5.3.2-rc-1/7961f4f3af6cd231524c17fa9dde63312161fe96/crittercism-android-agent-5.3.2-rc-1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="7961f4f3af6cd231524c17fa9dde63312161fe96">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/crittercism-android-agent-5.3.2-rc-1-808158d519c34bedb63b77b9d953f8f45336f341.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/crittercism-android-agent-5.3.2-rc-1-808158d519c34bedb63b77b9d953f8f45336f341.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-3c400623ee9990b10c9b41cf0a0da8297e6983e1.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-3c400623ee9990b10c9b41cf0a0da8297e6983e1.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/jars/libs/internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-4d0f1e88c6c830673c6f9631647b41e140a2106f.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/internal_impl-21.0.0-4d0f1e88c6c830673c6f9631647b41e140a2106f.jar" />
     </item>
     <item
         jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="a681c044244d9fc375198588297a39ba78028423">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-c1a93093e24bb10cd2a11b1e80f027aa3716d3ff.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/retrofit-1.9.0-c1a93093e24bb10cd2a11b1e80f027aa3716d3ff.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/libs/flickrj-android-2.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="08ff4a341260f9f438456d990396589d51a61e36">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/flickrj-android-2.1.0-b7945929e92ca35e4f17536711122725c6187b36.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/flickrj-android-2.1.0-b7945929e92ca35e4f17536711122725c6187b36.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/net.the4thdimension/poly-picker/1.0.13/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="5aee6d322406625b0c09878f0e0412167a546a0d">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-ca3fd3ac5a5d59bf3fa8c0a1e8cbdb05fc11ea28.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-ca3fd3ac5a5d59bf3fa8c0a1e8cbdb05fc11ea28.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="2dd7b1a9ea65bb03d9cd16df777eeaf537a1fc81">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-e898239b6c239cd67ebe660ea7b47e3841d09ba6.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-e898239b6c239cd67ebe660ea7b47e3841d09ba6.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/libs/javawriter-2.5.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="81241ff7078ef14f42ea2a8995fa09c096256e6b">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/javawriter-2.5.0-740a37eb159be656bde28e844b8c5cac630da383.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/javawriter-2.5.0-740a37eb159be656bde28e844b8c5cac630da383.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-e5213a53fa7a1de599263c325b34386083456d53.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-e5213a53fa7a1de599263c325b34386083456d53.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/libs/dagger-1.2.2.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e8f912ee19ad84958510883ea191135276b091f8">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/dagger-1.2.2-e411c62af07870da7d2c03226cfd37abb10a34de.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/dagger-1.2.2-e411c62af07870da7d2c03226cfd37abb10a34de.jar" />
     </item>
     <item
         jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/gson-2.3.1-cad49fef85ee0d0e9f277ad5d59acb1597791609.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/gson-2.3.1-cad49fef85ee0d0e9f277ad5d59acb1597791609.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-68181647d5c477c668399490387c59154f73c8af.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/support-annotations-22.2.1-68181647d5c477c668399490387c59154f73c8af.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/libs/dagger-compiler-1.2.2.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/dagger-compiler-1.2.2-a7dff0993ee3ad76a5c61172c7fa9750e436d2d5.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/dagger-compiler-1.2.2-a7dff0993ee3ad76a5c61172c7fa9750e436d2d5.jar" />
     </item>
     <item
         jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.googlecode.android-query/android-query/0.25.9/fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f/android-query-0.25.9.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/android-query-0.25.9-c55ef954e2b45d8da244e19d9f7997da0b10bf1e.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/android-query-0.25.9-c55ef954e2b45d8da244e19d9f7997da0b10bf1e.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/libs/javax.inject-1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/javax.inject-1-54a4e72c4aa6a5a39202d667aaaad2218647dc28.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/javax.inject-1-54a4e72c4aa6a5a39202d667aaaad2218647dc28.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-eb82847a596ddc725206acce0f711d94dee86f5c.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/internal_impl-22.2.1-eb82847a596ddc725206acce0f711d94dee86f5c.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-650ff9bcb9707c8978399bc90a25b29da4ebe107.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-650ff9bcb9707c8978399bc90a25b29da4ebe107.jar" />
     </item>
     <item
         jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-3adbe92ca266bed066c6a25d16f48a2d4f9f4d62.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/butterknife-6.1.0-3adbe92ca266bed066c6a25d16f48a2d4f9f4d62.jar" />
     </item>
     <item
         jar="/Users/VietHoa/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/library-2.4.0-5ebfa645f983074a359e16cab8d7e0f245414068.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/library-2.4.0-5ebfa645f983074a359e16cab8d7e0f245414068.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.commonsware.cwac/camera/0.6.10/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4a49cfe289b8726dbc6aaccbd0d550a3763c2c8b">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-e9a0502404791b06789059bd60704fce34f18686.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-e9a0502404791b06789059bd60704fce34f18686.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/SiliconStraitsTestApp.libraries/LoremIpsumLib/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="44c7e6c90e461c0af8117fb7fcb819d61eb8fd94">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-b522304692494464a672b9e0b37197f5dbc3a4b4.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-b522304692494464a672b9e0b37197f5dbc3a4b4.jar" />
     </item>
     <item
         jar="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="2e58dce1ec89cd4706295d355aaf920aee3d91c5">
-        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/debug/classes-64978bc91afffde95927e15d79c2bdce16128604.jar" />
+        <dex dex="/Users/VietHoa/Work/MyAndroidLibraries/SSSTestApp/SiliconStraitsTestApp/app/build/intermediates/pre-dexed/release/classes-64978bc91afffde95927e15d79c2bdce16128604.jar" />
     </item>
 
 </items>
