@@ -5,8 +5,8 @@ Using Flickrj-android SDK
 Feature
 -----
 - Oauthentication.
-- Get all user's photos
-- upload photos
+- Get all user's photos.
+- upload photos (5 images in a times).
 
 Demo .apk
 --------
