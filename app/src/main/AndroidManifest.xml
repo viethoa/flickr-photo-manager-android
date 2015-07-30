@@ -71,6 +71,10 @@
             android:name=".controllers.PhotoViewerActivity"
             android:theme="@style/AppTheme.Fullscreen" >
         </activity>
+
+        <service
+            android:name=".services.UserPhotoService"
+            android:exported="false" />
     </application>
 
 </manifest>

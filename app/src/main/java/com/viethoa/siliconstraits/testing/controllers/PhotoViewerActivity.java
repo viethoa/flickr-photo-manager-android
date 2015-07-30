@@ -31,7 +31,7 @@ public class PhotoViewerActivity extends BaseActivity {
     @InjectView(R.id.iv_back_icon)
     View ivBackIcon;
 
-    public static Intent getInstance(Context context, ArrayList<FlickrPhoto> mDataArray, int position) {
+    public static Intent newInstance(Context context, ArrayList<FlickrPhoto> mDataArray, int position) {
         Intent intent = new Intent(context, PhotoViewerActivity.class);
         intent.putExtra(EXTRACT_DATA, mDataArray);
         intent.putExtra(EXTRACT_POSITION, position);

@@ -11,7 +11,7 @@ public final class R {
 		public static final int black = 0x7f0e0012;
 		public static final int dark_gray = 0x7f0e0021;
 		public static final int light_gray = 0x7f0e002f;
-		public static final int white = 0x7f0e0058;
+		public static final int white = 0x7f0e0059;
 	}
 	public static final class dimen {
 		public static final int buttontoast_hover = 0x7f090043;

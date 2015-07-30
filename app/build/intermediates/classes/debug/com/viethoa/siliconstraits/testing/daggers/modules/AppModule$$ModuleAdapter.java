@@ -26,6 +26,7 @@ public final class AppModule$$ModuleAdapter extends ModuleAdapter<AppModule> {
   @Override
   public void getBindings(BindingsGroup bindings, AppModule module) {
     bindings.contributeProvidesBinding("android.content.Context", new ProvideApplicationContextProvidesAdapter(module));
+    bindings.contributeProvidesBinding("de.greenrobot.event.EventBus", new ProvideEventBusProvidesAdapter(module));
     bindings.contributeProvidesBinding("com.google.gson.Gson", new ProvidesJsonConverterProvidesAdapter(module));
   }
 
@@ -53,6 +54,33 @@ public final class AppModule$$ModuleAdapter extends ModuleAdapter<AppModule> {
     @Override
     public android.content.Context get() {
       return module.provideApplicationContext();
+    }
+  }
+
+  /**
+   * A {@code Binding<de.greenrobot.event.EventBus>} implementation which satisfies
+   * Dagger's infrastructure requirements including:
+   *
+   * Being a {@code Provider<de.greenrobot.event.EventBus>} and handling creation and
+   * preparation of object instances.
+   */
+  public static final class ProvideEventBusProvidesAdapter extends ProvidesBinding<de.greenrobot.event.EventBus>
+      implements Provider<de.greenrobot.event.EventBus> {
+    private final AppModule module;
+
+    public ProvideEventBusProvidesAdapter(AppModule module) {
+      super("de.greenrobot.event.EventBus", IS_SINGLETON, "com.viethoa.siliconstraits.testing.daggers.modules.AppModule", "provideEventBus");
+      this.module = module;
+      setLibrary(true);
+    }
+
+    /**
+     * Returns the fully provisioned instance satisfying the contract for
+     * {@code Provider<de.greenrobot.event.EventBus>}.
+     */
+    @Override
+    public de.greenrobot.event.EventBus get() {
+      return module.provideEventBus();
     }
   }
 

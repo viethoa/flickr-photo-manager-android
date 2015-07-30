@@ -17,16 +17,22 @@ import com.google.gson.reflect.TypeToken;
 import com.googlecode.flickrjandroid.photos.Photo;
 import com.viethoa.siliconstraits.testing.R;
 import com.viethoa.siliconstraits.testing.adapters.PhotosAdapter;
+import com.viethoa.siliconstraits.testing.daggers.managers.FlickrManager;
 import com.viethoa.siliconstraits.testing.flickr.base.BaseFlickrMainActivity;
 import com.viethoa.siliconstraits.testing.flickr.managers.FlickrLoginManager;
 import com.viethoa.siliconstraits.testing.images.loader.ImageLoader;
 import com.viethoa.siliconstraits.testing.managers.CacheManager;
 import com.viethoa.siliconstraits.testing.models.FlickrPhoto;
+import com.viethoa.siliconstraits.testing.models.events.FlickrPhotoEvent;
+import com.viethoa.siliconstraits.testing.services.UserPhotoService;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
+import javax.inject.Inject;
+
 import butterknife.InjectView;
+import de.greenrobot.event.EventBus;
 import nl.changer.polypicker.Config;
 import nl.changer.polypicker.ImagePickerActivity;
 
@@ -44,6 +50,11 @@ public class MainActivity extends BaseFlickrMainActivity implements
     protected RecyclerView.Adapter mAdapter;
     protected RecyclerView.LayoutManager mLayoutManager;
 
+    @Inject
+    FlickrManager flickrManager;
+    @Inject
+    EventBus eventBus;
+
     @InjectView(R.id.toolbar)
     Toolbar mToolbar;
     @InjectView(R.id.recycler_view)
@@ -53,7 +64,7 @@ public class MainActivity extends BaseFlickrMainActivity implements
     @InjectView(R.id.no_data_view)
     View vNoDataView;
 
-    public static Intent getInstance(Context context) {
+    public static Intent newInstance(Context context) {
         Intent intent = new Intent(context, MainActivity.class);
         return intent;
     }
@@ -76,6 +87,18 @@ public class MainActivity extends BaseFlickrMainActivity implements
         initialiseUI();
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        EventBus.getDefault().register(this);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        eventBus.getDefault().unregister(this);
+    }
+
     //----------------------------------------------------------------------------------------------
     // Setup
     //----------------------------------------------------------------------------------------------
@@ -90,8 +113,7 @@ public class MainActivity extends BaseFlickrMainActivity implements
         this.mDataArray = restoreCacheList();
 
         //pull data from server
-        showLoadingDialog();
-        performGetUserPhotos();
+        getDataFromServer(false);
     }
 
     protected void initialiseUI() {
@@ -143,17 +165,17 @@ public class MainActivity extends BaseFlickrMainActivity implements
 
     @Override
     public void onRefresh() {
-        performGetUserPhotos();
+        getDataFromServer(true);
     }
 
     @Override
     public void OnPhotoItemClicked(int position) {
-        Intent intent = PhotoViewerActivity.getInstance(this, mDataArray, position);
+        Intent intent = PhotoViewerActivity.newInstance(this, mDataArray, position);
         startActivity(intent);
     }
 
     protected void goToLoginActivity(boolean hasOverride) {
-        Intent intent = LoginActivity.getInstance(this, !hasOverride);
+        Intent intent = LoginActivity.newInstance(this, !hasOverride);
         startActivity(intent);
 
         if (hasOverride) {
@@ -224,9 +246,25 @@ public class MainActivity extends BaseFlickrMainActivity implements
     // Data Photo Section
     //----------------------------------------------------------------------------------------------
 
-    @Override
-    protected void performShowData(ArrayList<FlickrPhoto> newDataArray) {
-        mDataArray = newDataArray;
+    protected void getDataFromServer(boolean isSwipeRefresh) {
+        if (!isSwipeRefresh) {
+            showLoadingDialog();
+        }
+
+        Intent intent = new Intent(this, UserPhotoService.class);
+        startService(intent);
+    }
+
+    public void onEventMainThread(FlickrPhotoEvent event) {
+        logDebug("get user photo done");
+        dismissLoadingDialog();
+        if (event == null)
+            return;
+
+        mDataArray = event.getmDataArray();
+        if (mDataArray != null) {
+            logDebug("get user photo done: " + mDataArray.size());
+        }
 
         runOnUiThread(new Runnable() {
             @Override
@@ -237,10 +275,6 @@ public class MainActivity extends BaseFlickrMainActivity implements
                 refreshNoDataView();
             }
         });
-
-        if (isShowLoadingDialog()) {
-            dismissLoadingDialog();
-        }
 
         saveCacheList();
     }

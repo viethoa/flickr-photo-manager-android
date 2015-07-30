@@ -13,8 +13,8 @@ import android.widget.Toast;
 import com.googlecode.flickrjandroid.Flickr;
 import com.googlecode.flickrjandroid.auth.Permission;
 import com.googlecode.flickrjandroid.oauth.OAuthToken;
-import com.viethoa.siliconstraits.testing.flickr.managers.FlickrManager;
 import com.viethoa.siliconstraits.testing.flickr.managers.FlickrLoginManager;
+import com.viethoa.siliconstraits.testing.flickr.managers.FlickrManager;
 
 import java.net.URL;
 
@@ -55,6 +55,10 @@ public class FlickrLoginTask extends AsyncTask<Void, Integer, String> {
         try {
 
             Flickr f = FlickrManager.getInstance().getFlickr();
+            if (f == null) {
+                return null;
+            }
+
             OAuthToken oauthToken = f.getOAuthInterface().getRequestToken(OAUTH_CALLBACK_URI.toString());
             saveCurrentToken(oauthToken.getOauthTokenSecret());
             URL oauthUrl = f.getOAuthInterface().buildAuthenticationUrl(Permission.WRITE, oauthToken);

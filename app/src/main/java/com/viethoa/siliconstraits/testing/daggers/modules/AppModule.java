@@ -16,6 +16,7 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
+import de.greenrobot.event.EventBus;
 
 /**
  * Created by VietHoa on 03/05/15.
@@ -44,6 +45,12 @@ public class AppModule {
         } else {
             return null;
         }
+    }
+
+    @Provides
+    @Singleton
+    public EventBus provideEventBus() {
+        return new EventBus();
     }
 
     @Provides

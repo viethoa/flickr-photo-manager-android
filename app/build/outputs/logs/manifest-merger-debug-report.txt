@@ -135,6 +135,12 @@ ADDED from AndroidManifest.xml:70:9
 		ADDED from AndroidManifest.xml:72:13
 	android:name
 		ADDED from AndroidManifest.xml:71:13
+service#com.viethoa.siliconstraits.testing.services.UserPhotoService
+ADDED from AndroidManifest.xml:75:9
+	android:exported
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:support-v4:22.2.1:20:5

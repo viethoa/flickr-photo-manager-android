@@ -6,9 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.viethoa.siliconstraits.testing.R;
+import com.viethoa.siliconstraits.testing.daggers.managers.FlickrManager;
 import com.viethoa.siliconstraits.testing.flickr.base.BaseFlickrLoginActivity;
 import com.viethoa.siliconstraits.testing.flickr.managers.FlickrLoginManager;
-import com.viethoa.siliconstraits.testing.flickr.tasks.FlickrLoginTask;
+
+import javax.inject.Inject;
 
 import butterknife.InjectView;
 import butterknife.OnClick;
@@ -17,10 +19,13 @@ public class LoginActivity extends BaseFlickrLoginActivity {
 
     private static final String EXTRACT = "extract-logout";
 
+    @Inject
+    FlickrManager flickrManager;
+
     @InjectView(R.id.btn_flick_login)
     View btnFlickrLogin;
 
-    public static Intent getInstance(Context context, boolean logout) {
+    public static Intent newInstance(Context context, boolean logout) {
         Intent intent = new Intent(context, LoginActivity.class);
         intent.putExtra(EXTRACT, logout);
         return intent;
@@ -46,7 +51,7 @@ public class LoginActivity extends BaseFlickrLoginActivity {
         }
     }
 
-    //----------------------------------------------------------------------------------------------
+    //----------------------------------------------------------------------------O------------------
     // Event
     //----------------------------------------------------------------------------------------------
 
@@ -57,13 +62,12 @@ public class LoginActivity extends BaseFlickrLoginActivity {
             return;
         }
 
-        FlickrLoginTask task = new FlickrLoginTask(LoginActivity.this);
-        task.execute();
+        flickrManager.getAuthorization(this);
     }
 
     @Override
     protected void performAfterLogin() {
-        Intent intent = MainActivity.getInstance(this);
+        Intent intent = MainActivity.newInstance(this);
         startActivity(intent);
         finish();
     }

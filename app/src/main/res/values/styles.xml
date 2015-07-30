@@ -31,7 +31,7 @@
         <item name="android:background">@color/text_color_bright</item>
     </style>
     <style name="Theme.PopupMenu" parent="AlertDialog.AppCompat.Light">
-        <item name="android:popupBackground">@color/text_color_bright</item>
+        <item name="android:popupBackground">@color/menu_back_ground</item>
     </style>
 
     <!-- Toolbar style -->

@@ -28,8 +28,11 @@
     <color name="pink_color">#ff0185</color>
 
     <!-- Swipe refresh -->
-    <color name="swipe_color_1">#F06292</color>
-    <color name="swipe_color_2">#EC407A</color>
-    <color name="swipe_color_3">#E91E63</color>
-    <color name="swipe_color_4">#D81B60</color>
+    <color name="swipe_color_1">#EC407A</color>
+    <color name="swipe_color_2">#E91E63</color>
+    <color name="swipe_color_3">#D81B60</color>
+    <color name="swipe_color_4">#C2185B</color>
+
+    <!-- menu background -->
+    <color name="menu_back_ground">#CCFFFFFF</color>
 </resources>
