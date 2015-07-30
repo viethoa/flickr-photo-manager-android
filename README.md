@@ -8,7 +8,7 @@ Feature
 - Get all user's photos
 - upload photos
 
-Demo SKD
+Demo .apk
 --------
 https://www.dropbox.com/s/16hxbwjw81g5ugl/app-release.apk?dl=0
 
