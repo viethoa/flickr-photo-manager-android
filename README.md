@@ -8,9 +8,9 @@ Feature
 - Get all user's photos.
 - upload photos (5 images in a times).
 
-Demo .apk
+Live Demo
 --------
-https://www.dropbox.com/s/16hxbwjw81g5ugl/app-release.apk?dl=0
+https://appetize.io/app/5rez5a5g0p9zdy1bygexdhq1a4
 
 ![login][1] ![home][2] ![menu][3] ![gallery][4]
 
